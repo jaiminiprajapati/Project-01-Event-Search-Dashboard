@@ -1,0 +1,1828 @@
+[
+  {
+    "event_id": "1a54b852-3af5-d79d-7f54-4726001c784e",
+    "status": "live",
+    "created_ts": "2022-05-05T22:47:35",
+    "modified_ts": "2023-01-08T22:48:12",
+    "name": "Textile Printing Techniques (TE101 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-06T10:00:00+00:00",
+        "end_ts": "2024-03-26T10:00:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-06T10:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 153 },
+              { "type": "Concession", "currency": "GBP", "min_price": 138 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hKDey86gFaGoh8k5ZKJUVUGAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-13T10:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 153 },
+              { "type": "Concession", "currency": "GBP", "min_price": 138 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hKDey86gFaGoh8k5ZKJUVUGAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Textile Printing Techniques (TE101 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Discover a wide range of techniques for textile printing such as lino, block and screen print, mono printing, heat transfer printing, and collograph learn some handy design skills to pattern your fabric. \r\nWhat will you learn on this course?\r\nExplore surface print processes. Learn simple pattern repeating methods to add style and complexity to your surface patterning and create a final project of your choice with your printed fabric. \r\nThe course will cover:\r\n•\tLino, block, mud resist, flour paste resist, collograph, screen print, mono print, and heat pressed printing\r\n•\tPrinting with Procion dyes thickened with Manutuex\r\n•\tPrinting with heat-fixable screen print inks \r\n•\tMaking and using permanent and impermanent stencils and masks\r\n•\tUsing drawing fluid and screen filler\r\n•\tHow to make a simple repeat pattern\r\n•\tCollaging, painting and printing with Disperse heat-reactive dyes\r\n•\tPrint finishing techniques – curling, foil treatments and stitch options\r\n•\tUse of the sewing machine to make a product\r\nAs the course progresses you are encouraged to work on your own project and interests, applying new taught techniques each week. You will experience a variety of approaches to screen printing using permanent and impermanent techniques, and make fabric samples which will inform your project as you develop your knowledge and experience. \r\nThe tutor will use a mix of group demonstrations, individual support, and examples from her own print design practice to guide you through the process, explaining the materials and teaching the techniques. You will receive individual support on your designs as required. \r\nWho is this course for?\r\nThis course is for adults aged 18+ years. It is open to all levels, including beginner, improver, and experience students. It is suitable for people who are completely new to textiles, and for those who want to extend and refine their techniques. \r\nThis course may be accessible for people with disabilities. The room is wheelchair accessible. A support worker or carer may assist; carers must book a complimentary ticket if attending to provide support. Please contact us to discuss your specific accessibility needs. \r\nDo you need to bring anything? \r\nYou should begin collecting a portfolio of patterns on paper or fabric for reference use and imagery which inspires and interests you. You should wear old clothes and bring an apron to work in. \r\nAre there any additional costs?\r\nThere are no additional costs.\r\nWho teaches this course?\r\nClaire Leggett"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "7ad6197a-a171-983c-8e53-7646002064f8",
+    "status": "live",
+    "created_ts": "2023-05-28T21:44:30",
+    "modified_ts": "2023-05-28T21:44:30",
+    "name": "Garden",
+    "schedules": [
+      {
+        "start_ts": "2024-02-03T19:30:00+00:00",
+        "end_ts": "2024-02-10T19:30:00+00:00",
+        "place_id": "7654b831-dff1-605a-1b15-3d450000f96e",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["play", "theatre"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "7654b831-dff1-605a-1b15-3d450000f96e",
+          "name": "The Crescent Theatre",
+          "address": "20 Sheepcote Street",
+          "town": "Birmingham",
+          "postal_code": "B16 8AE",
+          "lat": 52.47933,
+          "lng": -1.91756,
+          "images": [
+            {
+              "url": "https://files.datathistle.com/images/2017/03/29/crescent-exterior-at-night-dx-lst237795_thumb.jpg",
+              "width": 300,
+              "height": 375,
+              "alt_text": "The Crescent Theatre",
+              "picture_credits": ""
+            }
+          ]
+        },
+        "performances": [
+          {
+            "ts": "2024-02-03T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ns3RjuJV%2BSxScZNTiweW8L3WOgpugs0AMkPKtHjYlOFCL%2FHOacGQFe%2F0O3FVIDTYHgOgXzA14mjKdxj4RMwMI2DUdvcgKHnv00%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-04T14:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ns3RjuJV%2BSxScZNTiweW8L3WOgpugs0AMkPKtHjYlOFCL%2FHOacGQFe%2F0O3FVIDTYHgOgXzA14mjKdxj4RMwMI2DUdvcgKHnv00%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-06T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ns3RjuJV%2BSxScZNTiweW8L3WOgpugs0AMkPKtHjYlOFCL%2FHOacGQFe%2F0O3FVIDTYHgOgXzA14mjKdxj4RMwMI2DUdvcgKHnv00%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-07T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ns3RjuJV%2BSxScZNTiweW8L3WOgpugs0AMkPKtHjYlOFCL%2FHOacGQFe%2F0O3FVIDTYHgOgXzA14mjKdxj4RMwMI2DUdvcgKHnv00%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-08T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ns3RjuJV%2BSxScZNTiweW8L3WOgpugs0AMkPKtHjYlOFCL%2FHOacGQFe%2F0O3FVIDTYHgOgXzA14mjKdxj4RMwMI2DUdvcgKHnv00%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-09T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ns3RjuJV%2BSxScZNTiweW8L3WOgpugs0AMkPKtHjYlOFCL%2FHOacGQFe%2F0O3FVIDTYHgOgXzA14mjKdxj4RMwMI2DUdvcgKHnv00%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-10T14:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ns3RjuJV%2BSxScZNTiweW8L3WOgpugs0AMkPKtHjYlOFCL%2FHOacGQFe%2F0O3FVIDTYHgOgXzA14mjKdxj4RMwMI2DUdvcgKHnv00%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-10T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ns3RjuJV%2BSxScZNTiweW8L3WOgpugs0AMkPKtHjYlOFCL%2FHOacGQFe%2F0O3FVIDTYHgOgXzA14mjKdxj4RMwMI2DUdvcgKHnv00%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Garden",
+    "website": "",
+    "tags": ["play", "theatre"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Two plays, two audiences, two venues, one cast!\n\nAlan Ayckbourn’s pair of comedies will be performed simultaneously by the same cast between the Main House and the Ron Barber Studio. With hilarious consequences, one character’s entrance to House (in the theatre) is another’s exit from Garden (in the studio), in this fast-paced duo of plays!\n\nWith a marriage collapsing inside and a fête being arranged outside, Alan Ayckbourn’s signature witty and insightful writing is on full display.\n\nHouse and Garden's storyline can be enjoyed through the eyes of different characters in either of the two spaces. Both are full length plays and can be watched in either order and enjoyed singly or together. Ticket offers are available if you purchase tickets for both plays and there are limited opportunities to catch them both on the same day. Early booking is advised. Don’t miss this comic experiment with time and space from a master of British theatre."
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "84f8b67a-a171-983c-8eff-d84600205af1",
+    "status": "live",
+    "created_ts": "2023-06-18T21:47:22",
+    "modified_ts": "2023-06-18T21:47:22",
+    "name": "Traditional Jewellery Making Skills (JE103 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-06T13:15:00+00:00",
+        "end_ts": "2024-03-19T13:15:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-06T13:15:00+00:00",
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 180 },
+              { "type": "Concession", "currency": "GBP", "min_price": 162 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hLgmVJUbDfw33Yq7AarXGSCAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-13T13:15:00+00:00",
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 180 },
+              { "type": "Concession", "currency": "GBP", "min_price": 162 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hLgmVJUbDfw33Yq7AarXGSCAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Traditional Jewellery Making Skills (JE103 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Learn traditional jewellery skills and create and design pieces of your own. \nWhat will you learn on this course?\nA traditional Goldsmith is a metalworker who specialises in working with gold and other precious metals on a small scale. A goldsmith crafts jewellery using mainly hand tools from metal sheet and wire to create fine jewellery and intricate findings.\nThe terms will be made up of projects and you’ll be taught beginner’s traditional jewellery skills to give you the foundation to create and design something of your own. \nYou will learn skills such as:\n•\tSoldering\n•\tAnnealing\n•\tFiling\n•\tSaw piercing \n•\tPolishing and finishing techniques\nBy the end of the course, you will have the confidence and the practical ability to work with tools and precious materials and be able to make jewellery you are proud of. \nLearners who create valuable jewellery from precious metals in our Jewellery Studio will now have the opportunity to have their work hallmarked at the Birmingham Assay Office using the official MAC hallmark. This exciting new partnership offers MAC learners a discounted rate and opportunity to use the MAC hallmark to authenticate their finished designs, alongside access to discounted specialist courses run by the Assay Office.\nWho is this course for?\nThis course is suitable for adults aged 18+ years. It is open to beginners who have no prior jewellery making experience and improvers who are looking to refine their skills.  \nThis course may be accessible for people with disabilities. A high level of manual dexterity and tool handling is required. The room is wheelchair accessible. A support worker or carer may assist; carers must book a complimentary ticket if attending to provide support. Please contact us to discuss your specific accessibility needs. \nDo you need to bring anything?\nStudents are required to wear flat closed-toe shoes, preferably trainers or boots, as this is a workshop environment with heavy tools, soldering equipment, and a kiln. Unsuitable footwear may result in the student not being able to take part in the session. \nLong hair must be tied back. Protective equipment will be provided with the guidance of the tutor. \nYou will need to purchase materials for the jewellery you wish to make as below. \nAre there any additional costs?\nThere are additional costs for materials such as base metals, sterling silver, solder, saw blades, and findings. These can be purchased from MAC individually or in packs. \nJewellery Start Pack – 2x copper sheets, 2x brass sheets, 2x wet & dry paper, 2M copper wire, 12x saw blades.\nSilver by the gram. \nDiscounted hallmarking services using the MAC official hallmark. Cost will be determined by individual items and subject to a handling fee.\nPlease contact us for pricing information. \nWho teaches this course?\nRoxanna Moznabi"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "e6c8777d-1227-c60e-0e50-3a46002116b9",
+    "status": "live",
+    "created_ts": "2023-07-03T18:31:12",
+    "modified_ts": "2023-07-04T10:49:02",
+    "name": "Freddie Mercury Tribute Night - Wythall",
+    "schedules": [
+      {
+        "start_ts": "2024-02-03T19:00:00+00:00",
+        "end_ts": "2024-02-03T19:00:00+00:00",
+        "place_id": "6854b8e1-e4f5-d79d-366d-52e50001e775",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["music", "rock & pop"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "6854b8e1-e4f5-d79d-366d-52e50001e775",
+          "name": "Wythall Community Association",
+          "address": "52 Silver Street\nWythall",
+          "town": "Birmingham",
+          "postal_code": "B47 6LZ",
+          "lat": 52.38434,
+          "lng": -1.88891,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-03T19:00:00+00:00",
+            "duration": 300,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "min_price": 10,
+                "description": "General admission"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv68jfDf%2FuONWY8lBEbivnqgyh4lz1H4pI6RVpaxnxF%2BhDYdFw7K71zykFv%2F7zcGqL56J49XMn5VxairUmQrhtFEiBkhbExBrPrmiw%2BYXKSgoMQtEQLWR7BLyrAN3wzGfgD%2FnjYT3zznp/tributenightpromotions.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Freddie Mercury Tribute Night - Wythall",
+    "website": "",
+    "tags": ["music", "rock & pop"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Welcome to the official website for the Freddie Mercury Tribute Night, an extraordinary event celebrating the timeless music and legacy of Freddie Mercury and Queen. Join us on Saturday, 3rd February at the Wythall Community Club for a night filled with unforgettable performances and a captivating atmosphere.\n\nFreddie Mercury Tribute Night Witham\nEvent Details:\n\nDate: Saturday, 3rd February\nVenue: Wythall Community Club\nAddress: 52 Silver St, Wythall, Birmingham, B47 6LZ\nDoors Open: 7:00 PM\n\nEvent Highlights:\n\nLive Performances: Immerse yourself in the iconic songs of Freddie Mercury and Queen performed live by the fantastic Andy John. Witness electrifying renditions of their greatest hits, bringing the spirit of Queen to life on stage.\nBefore and After Party: Enhance your experience with a sensational before and after party, featuring our resident DJ Mickie’s Discos who will keep the energy high and the dance floor buzzing all night long. Let loose and enjoy a night of non-stop entertainment.\nUnforgettable Tribute Act: Prepare to be amazed by our talented Freddie Mercury tribute act, capturing the essence and charisma of the legendary frontman. Experience the thrill of a live performance that pays homage to Freddie’s unparalleled stage presence.\nFreddie Mercury Tribute Night\nSecure your spot for this extraordinary event by purchasing your tickets through our website or at the Wythall Community Club. Tickets are selling fast, so don’t miss out!\n\nLocation\n\nWythall Community Club, 52 Silver St, Wythall, Birmingham B47 6LZ\n\nRoom: Park Hall\n\nEntertainment\n\nFreddie Mercury Tribute Night \n\nItinerary\n\n7:00 pm Doors Open for standard ticket holders\n\n7:00 pm Disco begins\n\n9:00 pm Freddie Mercury Tribute Night\n\n9:45 pm Interval/ Disco\n\n10:15 pm Freddie Mercury Tribute Night\n\n11:00 pm Disco till end\n\nPlease note: Performance timings are approximate"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://files.datathistle.com/images/2023/07/04/freddie-mercury-web1-11-LST599446.jpg",
+        "width": 620,
+        "height": 349,
+        "alt_text": "Freddie Mercury Tribute Night - Wythall",
+        "picture_credits": ""
+      }
+    ]
+  },
+  {
+    "event_id": "0605a19c-161f-9a69-1bba-50160019e2b4",
+    "status": "live",
+    "created_ts": "2021-07-31T20:59:45",
+    "modified_ts": "2023-07-11T08:45:38",
+    "name": "Bring Your Baby Pub Quiz",
+    "schedules": [
+      {
+        "start_ts": "2024-02-14T12:00:00+00:00",
+        "end_ts": "2024-12-11T12:00:00+00:00",
+        "place_id": "6f74b832-e4f1-605a-0aed-757500013b7a",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["activities", "days out", "kids", "party"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "6f74b832-e4f1-605a-0aed-757500013b7a",
+          "name": "The Fighting Cocks",
+          "address": "1 Saint Mary's Row, Moseley",
+          "town": "Birmingham",
+          "postal_code": "B13 8HW",
+          "lat": 52.44669,
+          "lng": -1.88749,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-14T12:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "max_price": 48,
+                "min_price": 8
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv%2FvH2q6ZKJ8MbsAV8D1bxICu2j3Km114mQ6BfMDXiaMp3GPhEzAwjYNR29yAoee%2FTQ%3D%3D/bringyourbaby.org/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Bring Your Baby Pub Quiz",
+    "website": "",
+    "tags": ["activities", "days out", "kids", "party"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "From the award-winning creator of ‘Bring Your Baby Guided London Walks’, ‘Bring Your Baby Pub Quizzes’ are fun, brain-stimulating daytime parent socials.\n\nTeam size is 6 maximum to make it fair on everyone.\n\nQuizzes take a slower pace than traditional ones. We are parents ourselves, and understand juggling a ‘baby brain’ with baby distractions!\n\nToddlers are welcome, but are the parent or carer's responsibility. Please bring suitable toys and games to entertain them while you quiz!\n\nWe take two breaks to feed, change and chat, and questions are always repeated. Settle in with the picture round from, with a further five quiz rounds (including general knowledge, music, connection and themed). Don’t panic if you’re a bit late - we repeat questions.\n\nA lunch menu including vegan and gluten-free options is available.\n\nBaby change is available, including our legendary mobile baby change which means you don't need to leave the quiz to change baby!\n\nA number of high chairs are also available.\n\nPrizes for 1st, 2nd & 3rd places include items such as Prosecco, beauty boxes and luxury chocolate boxes.\n\nComplimentary sweet treats for each table.\n\nPlease feel free to invite baby-free friends to make up your team size."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://files.datathistle.com/images/2021/08/03/bring-your-baby-pub-quiz-LST426525.jpg",
+        "width": 620,
+        "height": 413,
+        "alt_text": "Bring Your Baby Pub Quiz",
+        "picture_credits": ""
+      }
+    ]
+  },
+  {
+    "event_id": "7ff3663f-148b-cdc1-6445-d54600206e15",
+    "status": "live",
+    "created_ts": "2023-05-11T21:47:02",
+    "modified_ts": "2023-07-16T21:47:41",
+    "name": "Graphic Design for Beginners (DM110 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-07T10:00:00+00:00",
+        "end_ts": "2024-03-20T10:00:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-07T10:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 157 },
+              { "type": "Concession", "currency": "GBP", "min_price": 142 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPog7ZcDgf62A4%2FA5th4hDWAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-14T10:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 157 },
+              { "type": "Concession", "currency": "GBP", "min_price": 142 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPog7ZcDgf62A4%2FA5th4hDWAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Graphic Design for Beginners (DM110 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Learn the basics of the art of graphic design using Adobe Photoshop \r\nWhat will you learn on this course?\r\nThis is an introductory course for anyone interested in graphic design and wishing to learn techniques to create their own visual communication and digital designs such as flyers and logos.\r\nYou will learn a basic introductory level of how to use software most used by graphic designers, Adobe Photoshop, to create your own professional looking visual communication including logo designs, posters, flyers, banners, business cards, and other design projects. \r\nLessons will cover a variety of topics including:\r\n•\tBasic principles of design\r\n•\tIntroduction to typography\r\n•\tLogo design\r\n•\tBasic principles of layout\r\n•\tBasic photo editing in Photoshop \r\n•\tColour and image in digital media\r\n•\tIf time allows, the opportunity to work with a Wacom or Xpen artist graphic tablet\r\nBy the end of the course, you will confident to start creating your own design projects using Adobe Creative Software Photoshop. \r\nWho is this course for?\r\nThis course is suitable for adults aged 18+ years. It is designed for beginners and improvers looking to refresh and improve their skills. Basic computing skills are required\r\nThis course may be accessible for people with disabilities. The room is wheelchair accessible. A support worker or carer may assist; carers must book a complimentary ticket if attending to provide support. Please contact us to discuss your specific accessibility needs. \r\nDo you need to bring anything? \r\nPlease bring a 32GB USB stick or external hard drive so that you can take your work home\r\nAre there any additional costs?\r\nAll materials are provided. A memory stick must be provided at your own costs.\r\nWho teaches this course?\r\nSamah Rafiq"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "bdd6197a-a171-983c-0063-7646002064fa",
+    "status": "live",
+    "created_ts": "2023-07-17T14:15:47",
+    "modified_ts": "2023-07-17T14:15:47",
+    "name": "House",
+    "schedules": [
+      {
+        "start_ts": "2024-02-03T19:30:00+00:00",
+        "end_ts": "2024-02-10T19:30:00+00:00",
+        "place_id": "7654b831-dff1-605a-1b15-3d450000f96e",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["play", "theatre"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "7654b831-dff1-605a-1b15-3d450000f96e",
+          "name": "The Crescent Theatre",
+          "address": "20 Sheepcote Street",
+          "town": "Birmingham",
+          "postal_code": "B16 8AE",
+          "lat": 52.47933,
+          "lng": -1.91756,
+          "images": [
+            {
+              "url": "https://files.datathistle.com/images/2017/03/29/crescent-exterior-at-night-dx-lst237795_thumb.jpg",
+              "width": 300,
+              "height": 375,
+              "alt_text": "The Crescent Theatre",
+              "picture_credits": ""
+            }
+          ]
+        },
+        "performances": [
+          {
+            "ts": "2024-02-03T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ntmbY%2F3oEfYxwVtbL41tk%2FY1dDU3lmuTXdHJ4prRdKknxucWQvqzC8lQtYY%2B3C7hURQvZZ0G80AnXTJVmRzq%2BIMxeP%2FVak5A9w%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-04T14:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ntmbY%2F3oEfYxwVtbL41tk%2FY1dDU3lmuTXdHJ4prRdKknxucWQvqzC8lQtYY%2B3C7hURQvZZ0G80AnXTJVmRzq%2BIMxeP%2FVak5A9w%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-06T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ntmbY%2F3oEfYxwVtbL41tk%2FY1dDU3lmuTXdHJ4prRdKknxucWQvqzC8lQtYY%2B3C7hURQvZZ0G80AnXTJVmRzq%2BIMxeP%2FVak5A9w%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-07T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ntmbY%2F3oEfYxwVtbL41tk%2FY1dDU3lmuTXdHJ4prRdKknxucWQvqzC8lQtYY%2B3C7hURQvZZ0G80AnXTJVmRzq%2BIMxeP%2FVak5A9w%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-08T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ntmbY%2F3oEfYxwVtbL41tk%2FY1dDU3lmuTXdHJ4prRdKknxucWQvqzC8lQtYY%2B3C7hURQvZZ0G80AnXTJVmRzq%2BIMxeP%2FVak5A9w%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-09T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ntmbY%2F3oEfYxwVtbL41tk%2FY1dDU3lmuTXdHJ4prRdKknxucWQvqzC8lQtYY%2B3C7hURQvZZ0G80AnXTJVmRzq%2BIMxeP%2FVak5A9w%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-10T14:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ntmbY%2F3oEfYxwVtbL41tk%2FY1dDU3lmuTXdHJ4prRdKknxucWQvqzC8lQtYY%2B3C7hURQvZZ0G80AnXTJVmRzq%2BIMxeP%2FVak5A9w%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-10T19:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6ntmbY%2F3oEfYxwVtbL41tk%2FY1dDU3lmuTXdHJ4prRdKknxucWQvqzC8lQtYY%2B3C7hURQvZZ0G80AnXTJVmRzq%2BIMxeP%2FVak5A9w%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "House",
+    "website": "",
+    "tags": ["play", "theatre"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Two plays, two audiences, two venues, one cast!\n\nAlan Ayckbourn’s pair of comedies will be performed simultaneously by the same cast between the Main House and the Ron Barber Studio. With hilarious consequences, one character’s entrance to House (in the theatre) is another’s exit from Garden (in the studio), in this fast-paced duo of plays!\n\nWith a marriage collapsing inside and a fête being arranged outside, Alan Ayckbourn’s signature witty and insightful writing is on full display.\n\nHouse and Garden's storyline can be enjoyed through the eyes of different characters in either of the two spaces. Both are full length plays and can be watched in either order and enjoyed singly or together. Ticket offers are available if you purchase tickets for both plays and there are limited opportunities to catch them both on the same day. Early booking is advised. Don’t miss this comic experiment with time and space from a master of British theatre."
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "47a21e7a-a171-983c-6fe3-5b4600209f88",
+    "status": "live",
+    "created_ts": "2023-07-20T21:45:05",
+    "modified_ts": "2023-07-20T21:45:05",
+    "name": "Jack and the Beanstalk - P*ssed Up Panto",
+    "schedules": [
+      {
+        "start_ts": "2024-02-16T19:30:00+00:00",
+        "end_ts": "2024-02-17T19:30:00+00:00",
+        "place_id": "7654b831-dff1-605a-1b15-3d450000f96e",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["comedy"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "7654b831-dff1-605a-1b15-3d450000f96e",
+          "name": "The Crescent Theatre",
+          "address": "20 Sheepcote Street",
+          "town": "Birmingham",
+          "postal_code": "B16 8AE",
+          "lat": 52.47933,
+          "lng": -1.91756,
+          "images": [
+            {
+              "url": "https://files.datathistle.com/images/2017/03/29/crescent-exterior-at-night-dx-lst237795_thumb.jpg",
+              "width": 300,
+              "height": 375,
+              "alt_text": "The Crescent Theatre",
+              "picture_credits": ""
+            }
+          ]
+        },
+        "performances": [
+          {
+            "ts": "2024-02-16T19:30:00+00:00",
+            "duration": 165,
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "description": "Please see website"
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsNEtOFN5cBKonVtSdVGEIGM21JcwQvYULgNntnPUHUYGxnmZ0augcRkeCBVQeBP6nuJwaKx%2B7wA%2Fqpd3BLnRJkU3MYcrOM1%2Fy0DKURIDKm4eeAYW%2Fev3QZkOHSkSrthxo877dsbVSny6vsUJHrly5nGaf1fMQ0JGB%2FJZTg2jT%2F1bNqRSmkbV3Xg6rtzQ19FIac%3D/www.crescent-theatre.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Jack and the Beanstalk - P*ssed Up Panto",
+    "website": "",
+    "tags": ["comedy"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Following the success of Cinderella & Aladdin, Pssed up Panto is back!\n\nAlong with all the usual adult panto fun, the audience vote each night for the one performer who must complete savage drinking challenges throughout the show. As the victim gets slowly more and more sozzled, they must, along with the rest of the cast, keep the show rolling on to it’s happy climax...!\n\nJust how impressive is Jack’s Beanstalk?! There’s only one way to find out…boys and girls!\n\nPlease Note: This production features strong language, adult themes and is not suitable for the easily offended."
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "94c9418f-0182-fecb-8f2b-164600207e4d",
+    "status": "live",
+    "created_ts": "2023-05-15T05:20:08",
+    "modified_ts": "2023-08-06T04:20:54",
+    "name": "Bemused",
+    "schedules": [
+      {
+        "start_ts": "2024-02-03T19:00:00+00:00",
+        "end_ts": "2024-02-03T19:00:00+00:00",
+        "place_id": "b754b8b1-29f5-d79d-4d2c-909500015f2c",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["music", "rock", "tribute"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "b754b8b1-29f5-d79d-4d2c-909500015f2c",
+          "name": "Castle & Falcon",
+          "address": "402 Moseley Road",
+          "town": "Birmingham",
+          "postal_code": "B12 9AT",
+          "lat": 52.45926,
+          "lng": -1.88517,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-03T19:00:00+00:00",
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 11 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv6HvyRzTWHHWkILxwEUK09v0VFWkO%2FT401D%2Fz18IOS%2BqGI1J7wzwAeHjXG0NPeqtbXMC1DspclakJVttUvrI1JhHzk9o6MWEeU7bGvjghe9WMQtEQLWR7BLyrAN3wzGfgD%2FnjYT3zznp/www.seetickets.com/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Bemused",
+    "website": "",
+    "tags": ["music", "rock", "tribute"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Paying homage to the essence of MUSE, BeMUSEd transcends the typical tribute band by prioritising the iconic sound over mere physical resemblance. Assembled with a line-up of exceptionally skilled musicians, BeMUSEd masterfully recreates MUSE's intricate soundscapes and electrifying anthems that fill stadiums with fervour.\nAt the heart of BeMUSEd is the unwavering commitment to delivering an unforgettable show that captures the sonic essence of MUSE in all its magnificent complexity and depth. With each performance, listeners are immersed in a soundscape so authentic, they might just believe they're attending an actual MUSE concert.\nComplementing the extraordinary musical experience, BeMUSEd offers a synchronised, professional light show that elevates the atmosphere and heightens the audience's sensory journey.\nSpanning the vast MUSE discography, BeMUSEd performs fan favourites and chart-topping hits from their debut album SHOWBIZ to the contemporary SIMULATION THEORY and WILL OF THE PEOPLE. With every exhilarating note, BeMUSEd delivers an extraordinary experience that pays tribute to the legendary MUSE."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://files.datathistle.com/images/2023/05/06/1570911-30eb407f-bemused-1024-LST579985.jpg",
+        "width": 300,
+        "height": 300,
+        "alt_text": "Bemused",
+        "picture_credits": ""
+      },
+      {
+        "url": "https://files.datathistle.com/images/2023/07/26/1602517-0c825554-bemused-a-tribute-to-muse-1024-LST605913.jpg",
+        "width": 300,
+        "height": 300,
+        "alt_text": "Bemused - A Tribute to Muse",
+        "picture_credits": ""
+      }
+    ]
+  },
+  {
+    "event_id": "1bdb178c-c08a-b490-d918-2f460021c413",
+    "status": "live",
+    "created_ts": "2023-09-02T01:28:13",
+    "modified_ts": "2023-09-02T01:33:24",
+    "name": "Constellations",
+    "schedules": [
+      {
+        "start_ts": "2024-02-02T19:30:00+00:00",
+        "end_ts": "2024-02-10T19:30:00+00:00",
+        "place_id": "e374b880-f5f5-d79d-d7eb-6ac50001cb11",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["theatre"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "e374b880-f5f5-d79d-d7eb-6ac50001cb11",
+          "name": "Hall Green Little Theatre",
+          "address": "Pemberley Road",
+          "town": "Birmingham",
+          "postal_code": "B27 7RY",
+          "lat": 52.44311,
+          "lng": -1.83546,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-03T19:30:00+00:00",
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "max_price": 10,
+                "min_price": 9
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv5xRrHhGnVqIRajMvEW%2B9mStwqBlhfaghXS2ZMEh%2FLOC1Frdf43kRvgNLIv2xHxlPZ6Dwxph%2BxrTvMkSVgBNzSio1zO37%2FO56iKFximpgpBLdcsxwr5EiBAWO7ndbTPoTxSVElhR0uL77waYv45iQUKJqwMPckcCUuW8fJsppr5i%2BNJ5rt1UtIREz%2FiCYzadDA%3D%3D/www.ticketsource.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-05T19:30:00+00:00",
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "max_price": 10,
+                "min_price": 9
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv5xRrHhGnVqIRajMvEW%2B9mStwqBlhfaghXS2ZMEh%2FLOC1Frdf43kRvgNLIv2xHxlPZ6Dwxph%2BxrTvMkSVgBNzSio1zO37%2FO56iKFximpgpBLdcsxwr5EiBAWO7ndbTPoT3x8H%2BiFyKDm7waYv45iQUKJqwMPckcCUuW8fJsppr5i%2BNJ5rt1UtIREz%2FiCYzadDA%3D%3D/www.ticketsource.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-06T19:30:00+00:00",
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "max_price": 10,
+                "min_price": 9
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv5xRrHhGnVqIRajMvEW%2B9mStwqBlhfaghXS2ZMEh%2FLOC1Frdf43kRvgNLIv2xHxlPZ6Dwxph%2BxrTvMkSVgBNzSio1zO37%2FO56iKFximpgpBLdcsxwr5EiBAWO7ndbTPoT%2BmL8AW1e1e97waYv45iQUKJqwMPckcCUuW8fJsppr5i%2BNJ5rt1UtIREz%2FiCYzadDA%3D%3D/www.ticketsource.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-07T19:30:00+00:00",
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "max_price": 10,
+                "min_price": 9
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv5xRrHhGnVqIRajMvEW%2B9mStwqBlhfaghXS2ZMEh%2FLOC1Frdf43kRvgNLIv2xHxlPZ6Dwxph%2BxrTvMkSVgBNzSio1zO37%2FO56iKFximpgpBLdcsxwr5EiBAWO7ndbTPoT0aVNY66RaeO7waYv45iQUKJqwMPckcCUuW8fJsppr5i%2BNJ5rt1UtIREz%2FiCYzadDA%3D%3D/www.ticketsource.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-08T19:30:00+00:00",
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "max_price": 10,
+                "min_price": 9
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv5xRrHhGnVqIRajMvEW%2B9mStwqBlhfaghXS2ZMEh%2FLOC1Frdf43kRvgNLIv2xHxlPZ6Dwxph%2BxrTvMkSVgBNzSio1zO37%2FO56iKFximpgpBLdcsxwr5EiBAWO7ndbTPoT0mL0OQgsiGp7waYv45iQUKJqwMPckcCUuW8fJsppr5i%2BNJ5rt1UtIREz%2FiCYzadDA%3D%3D/www.ticketsource.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-09T19:30:00+00:00",
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "max_price": 10,
+                "min_price": 9
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv5xRrHhGnVqIRajMvEW%2B9mStwqBlhfaghXS2ZMEh%2FLOC1Frdf43kRvgNLIv2xHxlPZ6Dwxph%2BxrTvMkSVgBNzSio1zO37%2FO56iKFximpgpBLdcsxwr5EiBAWO7ndbTPoTwQ0oouAnKpO7waYv45iQUKJqwMPckcCUuW8fJsppr5i%2BNJ5rt1UtIREz%2FiCYzadDA%3D%3D/www.ticketsource.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-10T19:30:00+00:00",
+            "tickets": [
+              {
+                "type": "Standard",
+                "currency": "GBP",
+                "max_price": 10,
+                "min_price": 9
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv5xRrHhGnVqIRajMvEW%2B9mStwqBlhfaghXS2ZMEh%2FLOC1Frdf43kRvgNLIv2xHxlPZ6Dwxph%2BxrTvMkSVgBNzSio1zO37%2FO56iKFximpgpBLdcsxwr5EiBAWO7ndbTPoT27cNi1QJcXM7waYv45iQUKJqwMPckcCUuW8fJsppr5i%2BNJ5rt1UtIREz%2FiCYzadDA%3D%3D/www.ticketsource.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Constellations",
+    "website": "",
+    "tags": ["theatre"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "by Nick Payne.\nConstellations is a spellbinding love story about an unlikely romance between Roland, a beekeeper, and Marianne, a physicist. After a chance encounter at a barbeque brings them together the possibility of a spark seems unlikely, but what happens next defies the limits of our understanding of time and space."
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "88bfaadd-4f1e-b60e-8eef-acc40001b3c6",
+    "status": "live",
+    "created_ts": "2005-02-15T15:31:59",
+    "modified_ts": "2023-09-06T17:10:16",
+    "name": "Simple Plan",
+    "schedules": [
+      {
+        "start_ts": "2024-02-11T18:00:00+00:00",
+        "end_ts": "2024-02-11T18:00:00+00:00",
+        "place_id": "dad7ac53-01f1-605a-cc00-f2250000d65d",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["music", "rock & pop", "rock & pop"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "dad7ac53-01f1-605a-cc00-f2250000d65d",
+          "name": "O2 Academy Birmingham",
+          "address": "16--18 Horse Fair",
+          "town": "Birmingham",
+          "postal_code": "B1 1DB",
+          "lat": 52.47333,
+          "lng": -1.90019,
+          "images": [
+            {
+              "url": "https://files.datathistle.com/images/o/13-lst141913.jpg",
+              "width": 620,
+              "height": 396,
+              "alt_text": "O2 Academy Birmingham",
+              "picture_credits": ""
+            }
+          ]
+        },
+        "performances": [
+          {
+            "ts": "2024-02-11T18:00:00+00:00",
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "description": "tbc" }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv%2FQdzmP%2FTIo5N3kZEUZ3c0Xq%2FTTiyOCFeJCRWd6eaEP49Wz193fB1%2FQAG3sPB%2B7wBuz7wMhPLsqV7PKCfjpFHtCcUax4Rp1aiC46%2BZUn7PEPLILvod%2FIV6L8Mi3LyHoAdk85V8gkAnz4RX32wU5mxTSLGc8rJmfPCfAYlQ93fvBsoiM7nWWZEhXlPX7KrMZZ%2B53jEfBegRRHMQtEQLWR7BLyrAN3wzGfgD%2FnjYT3zznp/www.ticketmaster.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Simple Plan",
+    "website": "http://www.simpleplan.com/",
+    "tags": ["music", "rock & pop", "rock & pop"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "default",
+        "description": "Montreal-based punk pop quintet who have been doing it for the kids, both musically and through their Simple Plan charity foundation, over the years."
+      },
+      {
+        "type": "third-party",
+        "description": "From their rise to MTV superstardom through pop-punk’s modern resurgence, Simple Plan have been an indelible part of pop culture since forming in Montreal in 1999. They’ve sold 10 million albums worldwide, won multiple Juno Awards, performed at the 2010 Winter Olympics – and, most recently, launched the omnipresent #ImJustAKid TikTok challenge that’s spawned more than 3.4 million videos, including clips from Hilary Duff, Ed Sheeran, Usher and Venus and Serena Williams.\n\nBut most importantly, they’ve never lost connection with what really matters: their audience. “We feel so lucky to have fans who love our old and new material,” says drummer Chuck Comeau. “We’re very proud of our past, but we’re even more excited about the future. We truly always feel we’re 3 minutes away from the best or biggest song of our career.”\n\nTen years on from their 2002 debut, No Pads, No Helmets... Just Balls, Simple plan returned in 2022 with their sixth studio album, Harder Than It Looks. The first self-released album from Comeau, vocalist Pierre Bouvier and guitarists Sébastien Lefebvre and Jeff Stinco, the album respected Simple Plan’s storied career while pushing them forward in new ways, with songs like 'The Antidote', 'Ruin My Life' (ft. Deryck Whibley), 'Congratulations', 'Wake Me Up (When This Nightmare’s Over)' and 'Iconic'."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://files.datathistle.com/images/2023/08/01/44f340be-4e35-4ef6-8c5d-53f0bc31c38a-tablet-landscape-large-16-9-LST607646.jpg",
+        "width": 620,
+        "height": 349,
+        "alt_text": "Simple Plan",
+        "picture_credits": ""
+      },
+      {
+        "url": "https://files.datathistle.com/images/2023/08/01/e7be2160-f1b9-45d8-95b5-dca65ade7166-tablet-landscape-large-16-9-1-LST607645.jpg",
+        "width": 620,
+        "height": 349,
+        "alt_text": "Simple Plan, Mayday Parade",
+        "picture_credits": ""
+      },
+      {
+        "url": "https://files.datathistle.com/images/2023/08/01/7c779cc0-9c52-4925-a366-94f7a2578642-1690531-tablet-landscape-large-16-9-1-LST607640.jpg",
+        "width": 620,
+        "height": 349,
+        "alt_text": "Simple Plan, Mayday Parade, State Champs",
+        "picture_credits": ""
+      }
+    ]
+  },
+  {
+    "event_id": "f874b8d4-daf5-d79d-8ad0-74b5000ffa7e",
+    "status": "live",
+    "created_ts": "2018-07-12T09:13:28",
+    "modified_ts": "2023-10-01T20:49:04",
+    "name": "Championship: Birmingham City Vs Blackburn Rovers",
+    "schedules": [
+      {
+        "start_ts": "2024-02-13T19:45:00+00:00",
+        "end_ts": "2024-02-13T19:45:00+00:00",
+        "place_id": "c654b863-1af1-605a-f228-2855000117b3",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": [
+          "sport",
+          "football",
+          "championship",
+          "birmingham",
+          "blackburn",
+          "birmingham city",
+          "blackburn rovers"
+        ],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "c654b863-1af1-605a-f228-2855000117b3",
+          "name": "St Andrew's Stadium",
+          "address": "140 Cattell Road",
+          "town": "Birmingham",
+          "postal_code": "B9 4RL",
+          "lat": 52.47553,
+          "lng": -1.86769,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-13T19:45:00+00:00",
+            "duration": 105,
+            "tickets": [],
+            "properties": {},
+            "links": []
+          }
+        ]
+      }
+    ],
+    "sort_name": "Championship: Birmingham City Vs Blackburn Rovers",
+    "website": "",
+    "tags": [
+      "sport",
+      "football",
+      "championship",
+      "birmingham",
+      "blackburn",
+      "birmingham city",
+      "blackburn rovers"
+    ],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Birmingham City take on Blackburn Rovers in this Championship fixture."
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "4ef3663f-148b-cdc1-6445-d54600206e02",
+    "status": "live",
+    "created_ts": "2023-05-11T21:47:02",
+    "modified_ts": "2023-10-01T21:48:36",
+    "name": "Acting and Performance (DA103 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-07T19:00:00+00:00",
+        "end_ts": "2024-03-20T19:00:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-07T19:00:00+00:00",
+            "duration": 120,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 117 },
+              { "type": "Concession", "currency": "GBP", "min_price": 106 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPog7ZcDgf62KIX5Kt%2Bqjm6AFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-14T19:00:00+00:00",
+            "duration": 120,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 117 },
+              { "type": "Concession", "currency": "GBP", "min_price": 106 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPog7ZcDgf62KIX5Kt%2Bqjm6AFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Acting and Performance (DA103 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Learn acting and performance skills and techniques to develop your confidence in front of an audience.\r\nWhat will you learn on this course?\r\nThis course covers a wide range of acting and performance skills and techniques, including improvisation, devising, and script work. You’ll explore the work of a range of different practitioners including Meisner, Artaud, Brecht, and Stanislavsky. \r\nThe course will work toward a final showcase performance which is open to the public, allowing you to test out and demonstrate your newly developed skills to family and friends in a supportive atmosphere. \r\nWho is this course for?\r\nThis course is for adults aged 18+ years. It is suitable for anyone who would like to improve their confidence and develop their performance skills. No previous acting experience is necessary. \r\nThis course may be accessible for people with disabilities. The room is wheelchair accessible. A support worker or carer may assist; carers must book a complimentary ticket if attending to provide support. Please contact us to discuss your specific accessibility needs. \r\nDo you need to bring anything?\r\nPlease bring water and wear comfortable clothes. \r\nAre there any additional costs?\r\nThere are no additional costs. \r\nWho teaches this course?\r\nAna Petrovici"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "6ef3663f-148b-cdc1-6445-d54600206e04",
+    "status": "live",
+    "created_ts": "2023-05-11T21:47:02",
+    "modified_ts": "2023-10-01T21:48:36",
+    "name": "Art Appreciation (VA47 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-07T15:00:00+00:00",
+        "end_ts": "2024-03-20T15:00:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-07T15:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 154 },
+              { "type": "Concession", "currency": "GBP", "min_price": 139 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPog7ZcDgf62l2hjw7Aur4eAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-14T15:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 154 },
+              { "type": "Concession", "currency": "GBP", "min_price": 139 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPog7ZcDgf62l2hjw7Aur4eAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Art Appreciation (VA47 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Have an interest in art history but not sure where to get started? If you have ever wanted to know the difference between Impressionism and Expressionism, Baroque and Rococo, Fauvism and Cubism, or simply brush up on your knowledge, then this course is for you. \r\nWhat will you learn on this course?\r\nThe course will provide you with an introduction to key periods in the western art historical canon. The tutor will support you in your learning about western art history, its technical discoveries, and contextual ideologies. Develop your understanding and theoretical knowledge of key art movements.  \r\nIn addition, you will have the opportunity to produce some practical work and take part in creative activities that relate to relevant topics to gain a better understanding of techniques and concepts. This may include short drawing, painting, and collage exercises to enhance your understanding.\r\nDuring the course, you will have special access to MAC’s Visual Arts Exhibition programme with curator talks and group visits to local galleries. On completion, you will have produced a detailed learning/visual journal containing notes, visual references and information alongside a selection of your own practical work. \r\nWho is this course for?\r\nThis course is for adults aged 18+ years. It is open to beginners and improvers. It is suitable for people who have little or no knowledge and wish to learn about art history through research and practical exercise. \r\nThis course may be accessible for people with disabilities. The room is wheelchair accessible. A support worker or carer may assist; carers must book a complimentary ticket if attending to provide support. Please contact us to discuss your specific accessibility needs. \r\nDo you need to bring anything?\r\nPlease bring a hardback, ringbound A4 sketchbook. Basic art materials will be provided but you may wish to bring your own resources as the course develops. \r\nThere is free Wi-Fi at MAC, students are welcome to bring their own laptop or tablet devices for research. \r\nAre there any additional costs?\r\nAny additional materials must be provided at your own expense. \r\nWho teaches this course?\r\nAngela Maloney"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "0004663f-148b-cdc1-6445-d54600206e1e",
+    "status": "live",
+    "created_ts": "2023-05-11T21:47:02",
+    "modified_ts": "2023-10-01T21:48:37",
+    "name": "Introduction to Drawing and Illustration (VA108 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-01T10:00:00+00:00",
+        "end_ts": "2024-03-21T10:00:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-08T10:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 154 },
+              { "type": "Concession", "currency": "GBP", "min_price": 139 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPrKaWAF5jpHMLgy%2FPAmFnGAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-15T10:00:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 154 },
+              { "type": "Concession", "currency": "GBP", "min_price": 139 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPrKaWAF5jpHMLgy%2FPAmFnGAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Introduction to Drawing and Illustration (VA108 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "In this course, discover the fundamentals of drawing and illustration and learn how to translate what your eyes see onto a blank sheet of paper. \r\n\r\nWhat will you learn on this course?\r\n\r\nDrawing is one of the first and oldest means of expression and representation. Good observation is the key to unlocking your creativity and enhance your drawing skills. The course will guide you through fundamental principles and rules that will make your drawings and illustration recognisable and realistic. \r\n \r\nDrawing and illustration are two very similar things, but with some differences. Drawing is a form of self-expression whereas illustration is used to convey a message and to accompany a text, often in a commercial context. Either way, to draw or illustrate, you must learn the fundamentals of drawing first.\r\n\r\nStudents will learn classical drawing techniques and concepts, and some fundamentals about artistic expression and the course covers basic techniques including \r\n\r\n•\tdrawing transfer methods\r\n•\tpencil drawing textures\r\n•\ttypes of perspective\r\n•\tlight and shade\r\n•\ttonal values\r\n•\tlaws of composition\r\n•\tphotorealism\r\n\r\nThe course will also look at themes such as geometrical forms, landscape, flower, and plants the human figure and portraits. \r\n\r\nTo begin with, you start by copying other drawings which is a great method for beginners to help you develop an eye for detail and understand how to construct your artwork. \r\n\r\nYour tutor will guide you through step-by-step processes and provide live demonstrations, plus one to one support and additional materials such as handouts. Some of the exercises will be based on the drawings and methods from a book called ‘Drawing – a complete guide’ by Giovanni Civardi’. \r\n\r\nWho is this course for?\r\nThis course is suitable for adults aged 18+ years. It is suitable for beginners who have no experience drawing and want to learn all the basics, and for improvers who are looking to develop and refine their skills. \r\nThis course may be accessible for people with disabilities. The room is wheelchair accessible. A support worker or carer may assist; carers must book a complimentary ticket if attending to provide support. Please contact us to discuss your specific accessibility needs."
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "09af2280-276b-9a07-a6e3-28460020c73a",
+    "status": "live",
+    "created_ts": "2023-06-08T21:47:38",
+    "modified_ts": "2023-10-01T21:48:37",
+    "name": "Introduction to Poetry and Poetic Writing (WR109 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-05T10:00:00+00:00",
+        "end_ts": "2024-02-12T10:00:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-05T10:00:00+00:00",
+            "duration": 120,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 61 },
+              { "type": "Concession", "currency": "GBP", "min_price": 55 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hIkRdIZaI9eRqiTQFR0q2dOAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-12T10:00:00+00:00",
+            "duration": 120,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 61 },
+              { "type": "Concession", "currency": "GBP", "min_price": 55 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hIkRdIZaI9eRqiTQFR0q2dOAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Introduction to Poetry and Poetic Writing (WR109 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Do you like poetry and would like to discover more with like minded others? Then this is the course for you. Over 6 weeks you will read, explore, discuss and write poetry. \r\n\r\nWhat will you learn on this course?\r\nDuring this six week course you will be introduced to creative poetic writing, learn how to expand your own writing techniques and consider poetry in its widest form. \r\n\r\nFrom poetic verse to poetry in prose and even song lyrics, this course will introduce you to the wonderful world of poetry. \r\n\r\nThe tutor will help you build confidence and find enjoyment in writing poetry, you will be encouraged to embrace the writing process. \r\n\r\nDuring the course, you will:\r\n•\tExamine both new and old poetry, song lyrics and poetic writing\r\n•\tProduce poetic writing by learning some poetic techniques\r\n•\tConsider published poems/songs/poetic writing to gain a greater freedom in writing your own work\r\n•\tLearn to edit and develop own work by looking at published and non-published work\r\n\r\nParticipants will have the confidence to write in their own style, but with added ‘tools’ from the class to extend and continue. \r\n\r\nWho is this course for? \r\nThis short course is suitable for adults aged 18+ years. It is suitable for beginners who have little experience of creative writing, and improvers who are looking to refine their skills.\r\n\r\nThe course is accessible for people with disabilities who can engage in writing activities. A support worker or carer may assist. Carers must book a complimentary ticket if attending a course to provide support. The room is wheelchair accessible. Please contact us to discuss your specific needs\r\nDo you need to bring anything?\r\nWe recommend bringing a note book and pen for the sessions. \r\nAre there any additional costs?\r\nThere are no additional costs for this course. \r\nWho teaches this course? \r\nCarol Preston"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "1aaf2280-276b-9a07-a6e3-28460020c74b",
+    "status": "live",
+    "created_ts": "2023-06-08T21:47:38",
+    "modified_ts": "2023-10-01T21:48:37",
+    "name": "The Songwriting Circle (MU02 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-05T19:30:00+00:00",
+        "end_ts": "2024-03-18T19:30:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-05T19:30:00+00:00",
+            "duration": 120,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 116 },
+              { "type": "Concession", "currency": "GBP", "min_price": 105 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hIkRdIZaI9eRKIX5Kt%2Bqjm6AFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-12T19:30:00+00:00",
+            "duration": 120,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 116 },
+              { "type": "Concession", "currency": "GBP", "min_price": 105 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hIkRdIZaI9eRKIX5Kt%2Bqjm6AFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Songwriting Circle (MU02 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "No knowledge of music theory is needed for this creative network where like-minded folks meet up to share ideas and learn song writing techniques. \r\nWhat will you learn on this course?\r\nThis course is a series of workshops that encourages songwriters to come out of isolation and enter a creative community based on peer learning. This is a supportive space and a hideaway from the commercial world, somewhere you can develop skills, share experiences, receive feedback, and feel the benefit of a support network. \r\nThe Song Writing Circle is not an academic course and you do not need to have any knowledge of music theory, or even necessarily be able to play an instrument. This is a creative network of writers, a place for like-minded people to meet and share ideas. It is designed to stimulate and motivate your creative spirit. \r\nParticipants will play their works in progress and receive feedback and contributions from the group. A multi-led approach offers participants the opportunity to share a balanced perspective and vast array of song writing techniques and approaches. \r\nAt the end of the course, participants will have the opportunity to perform their songs to a an audience in a public showcase at MAC. \r\nThe Song Writing Circle was set up by singer-songwriter Dan Whitehouse in 2010, inspired by a song writing retreat he attended with Tom Robinson (BBC 6 Music). \r\nWho is this course for?\r\nThis course is suitable for adults aged 18+ years. It is open to all levels; you may be an experienced songwriter looking for new ways to generate new ideas or someone just starting out on their song writing journey. \r\nThis course may be accessible for people with disabilities. A support worker or carer may attend to assist; carers must book a complimentary ticket if attending a course to provide support. The room is wheelchair accessible. Please contact us to discuss your specific accessibility needs. \r\nDo you need to bring anything? \r\nPlease bring a notebook and pen. You may wish to bring your own instrument with you. \r\nAre there any additional costs?\r\nThere are no additional costs. \r\nWho teaches this course?\r\nDan Whitehouse & Tony Willé"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "1ddcb7bd-153b-b80b-5097-b8460020df7a",
+    "status": "live",
+    "created_ts": "2023-06-15T21:48:05",
+    "modified_ts": "2023-10-01T21:48:37",
+    "name": "Jewellery for Beginners (JE106 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-04T10:30:00+00:00",
+        "end_ts": "2024-03-24T10:30:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-04T10:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 180 },
+              { "type": "Concession", "currency": "GBP", "min_price": 162 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hFx32OGQQrv%2FCpECb0JfQ5eAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-11T10:30:00+00:00",
+            "duration": 150,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 180 },
+              { "type": "Concession", "currency": "GBP", "min_price": 162 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hFx32OGQQrv%2FCpECb0JfQ5eAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Jewellery for Beginners (JE106 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Learn how to design and make your own metal jewellery in this special course designed just for beginners.  \r\nWhat will you learn on this course?\r\nThis course is for those interested in learning how to create beautiful metal jewellery. Throughout this short course, you will be introduced to core tools and traditional jewellery making techniques including:\r\n•\tPiece sawing (cutting metals)\r\n•\tFold forming\r\n•\tSoldering\r\n•\tBasic Texturing Techniques\r\n•\tEnamelling\r\n•\tPolishing and Finish\r\nThe course will focus on a project, make a pendant, and as your skills develop and grow you will be encouraged to design and make your own ring or bangle. \r\nThis is a shorter course for those who want to try out the art of making jewellery. MAC’s purpose-built jewellery studio is a friendly place where you will meet other likeminded people and share your creative journey.\r\nMAC’s fully equipped jewellery studio has work benches, a soldering hearth and torch, enamelling kiln, polishing motor, and various hand tools which the tutor will teach you to use safely and correctly. \r\nOn completing the course, you will have gained confidence in basic bench skills, developed your fine motor skills and hand eye coordination, and several pieces of jewellery you have design and made to wear. \r\n\r\nLearners who create valuable jewellery from precious metals in our Jewellery Studio will now have the opportunity to have their work hallmarked at the Birmingham Assay Office using the official MAC hallmark. This exciting new partnership offers MAC learners a discounted rate and opportunity to use the MAC hallmark to authenticate their finished designs, alongside access to discounted specialist courses run by the Assay Office.\r\nWho is this course for?\r\nThis course is suitable for adults aged 18+ years. It is a beginner level course and no prior experience is necessary.  \r\nThis course may be accessible for people with disabilities. A high level of manual dexterity and tool handling is required. The room is wheelchair accessible. A support worker or carer may assist; carers must book a complimentary ticket if attending to provide support. Please contact us to discuss your specific accessibility needs. \r\nDo you need to bring anything?\r\nStudents are required to wear flat closed-toe shoes, preferably trainers or boots, as this is a workshop environment with heavy tools, soldering equipment, and a kiln. Unsuitable footwear may result in the student not being able to take part in the session. \r\nLong hair must be tied back. Protective equipment will be provided with the guidance of the tutor. \r\nYou will need to purchase materials for the jewellery you wish to make as below. \r\nAre there any additional costs?\r\nThere are additional costs for materials such as base metals, sterling silver, solder, saw blades, and findings. These can be purchased from MAC individually or in packs. \r\nJewellery Start Pack – 2x copper sheets, 2x brass sheets, 2x wet & dry paper, 2M copper wire, 12x saw blades.\r\nSilver by the gram. \r\nDiscounted hallmarking services using the MAC official hallmark. Cost will be determined by individual items and subject to a handling fee.\r\nPlease contact us for pricing information. \r\nWho teaches this course?\r\nChloe Minihane Slater"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "2304663f-148b-cdc1-7445-d54600206e50",
+    "status": "live",
+    "created_ts": "2023-05-11T21:47:03",
+    "modified_ts": "2023-10-01T21:48:37",
+    "name": "Yang Tai Chi Advanced (WB04 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-01T10:00:00+00:00",
+        "end_ts": "2024-03-21T10:00:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-08T10:00:00+00:00",
+            "duration": 90,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 119 },
+              { "type": "Concession", "currency": "GBP", "min_price": 108 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPrKaWAF5jpH5TXsg1cACLuAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-15T10:00:00+00:00",
+            "duration": 90,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 119 },
+              { "type": "Concession", "currency": "GBP", "min_price": 108 }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hPrKaWAF5jpH5TXsg1cACLuAFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Yang Tai Chi Advanced (WB04 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "An advanced course for students with several years’ experience wishing to refine and deepen their practice. \r\nWhat will you learn on this course?\r\nYang Tai Chi is a smooth, gentle exercise coordinating calm breathing movements and inner concentration. This is a low impact, mind-body series of movements from traditional Chinese arts to aid the balance of health and to support longevity. \r\nLearn relaxation techniques to keep fit and improve your wellbeing, including Qigong exercises that combine breathing with movements. You will practice the Yang 42 step Tai Chi form, a sequence of movements originating from the Yang family style. \r\nThe tutor demonstrates and explains the movements to the class, as well as teaching safe and effective posture and technique in a relaxed manner. \r\nTai Chi has a number of health benefits including improved:\r\n•\tFlexibility\r\n•\tPosture\r\n•\tCo-ordination\r\n•\tStamina and cardiovascular health \r\n•\tBalance\r\n•\tBlood pressure levels\r\n•\tBody awareness\r\n•\tUse of intrinsic strength \r\nOn completion of this course, you will have an acute understanding of the Yang 42 step form and will be able to continue your practice independently. \r\nWho is this course for?\r\nThis course is suitable for adults aged 18+. This course is specifically tailored for advanced students who have Tai Chi experience and are looking to continue and deepen their practice. You may have completed the Yang Tai Chi Improvers course at MAC, or have attended similar level classes elsewhere. \r\nThis course may be accessible for people with disabilities. The room is wheelchair accessible. A support worker or carer may assist; carers must book a complimentary ticket if attending to provide support. Please contact us to discuss your specific accessibility needs. \r\nYou should avoid having a meal during the 2 hours before the class. All students should inform the tutor of any ongoing health problems. \r\nDo you need to bring anything?\r\nPlease wear comfortable clothes that allow free movement and flat shoes. \r\nAre there any additional costs?\r\nThere are no additional costs.\r\nWho teaches this course?\r\nYanyan Yang"
+      }
+    ],
+    "images": []
+  },
+  {
+    "event_id": "2cd46565-8521-2e55-3340-97460020b344",
+    "status": "live",
+    "created_ts": "2023-06-01T21:48:51",
+    "modified_ts": "2023-10-01T21:48:37",
+    "name": "Family Pottery (FA02 Spring)",
+    "schedules": [
+      {
+        "start_ts": "2024-02-03T12:30:00+00:00",
+        "end_ts": "2024-03-23T12:30:00+00:00",
+        "place_id": "00008422-025d-343d-1219-21050000b230",
+        "performance_space": "",
+        "properties": {},
+        "tickets": [],
+        "links": [],
+        "tags": ["days out", "workshops"],
+        "ticket_summary": "",
+        "place": {
+          "place_id": "00008422-025d-343d-1219-21050000b230",
+          "name": "MAC (Midlands Arts Centre)",
+          "address": "Cannon Hill Park",
+          "town": "Birmingham",
+          "postal_code": "B12 9QH",
+          "lat": 52.45316,
+          "lng": -1.90367,
+          "images": []
+        },
+        "performances": [
+          {
+            "ts": "2024-02-03T12:30:00+00:00",
+            "duration": 120,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 84 },
+              {
+                "type": "Children",
+                "currency": "GBP",
+                "max_price": 188,
+                "min_price": 84
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hGRrkCxeOecKIJbP4piHKy6AFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          },
+          {
+            "ts": "2024-02-10T12:30:00+00:00",
+            "duration": 120,
+            "tickets": [
+              { "type": "Standard", "currency": "GBP", "min_price": 84 },
+              {
+                "type": "Children",
+                "currency": "GBP",
+                "max_price": 188,
+                "min_price": 84
+              }
+            ],
+            "properties": {},
+            "links": [
+              {
+                "url": "https://www.datathistle.com/details/%2Bi2gERrAPsOvjQ11u3Vhv1cdFIHhZU6tj0MU0o3GxFul7%2FATPoE2hGRrkCxeOecKIJbP4piHKy6AFuJgKz8JvAztFMQbACdM%2B9%2B4rHkpVQ0%3D/macbirmingham.co.uk/",
+                "type": "booking"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sort_name": "Family Pottery (FA02 Spring)",
+    "website": "",
+    "tags": ["days out", "workshops"],
+    "properties": {},
+    "links": [],
+    "descriptions": [
+      {
+        "type": "third-party",
+        "description": "Explore the world of clay together! Learn about different hand-building techniques and exciting ways to decorate your clay work. \r\nWhat will you learn on this course?\r\nThis termly course provides an exciting introduction to ceramics. It is a perfect opportunity for you and your child to spend more time together and develop a shared artistic interest in the medium of clay. \r\nYou will learn different hand-building techniques such as coiling, slab building, sculpting, and using moulds. The tutor will support you to explore your own ideas and demonstrate how to apply taught techniques to realise your own designs. You will have access to specialist tools to decorate your work, including the application of glazes.\r\nThe tutor will begin by demonstrating different techniques and suggesting possible outcomes, allowing you to experiment with your ideas. Further demonstrations and one-to-one support will be given as required. Class members will be encouraged to share their work and ideas with the group. \r\nA glossary of technical terms along with an overview of the taught content will be provided. In addition to practical making skills, the tutor will use visual resources to give you an understanding of both historical and contemporary ceramics works. \r\nBy the end of this course, you will have learned how to use all of the equipment in MAC’s specialist ceramic studio safely and correctly. You will have learned a range of techniques, made high quality ceramics pieces to your own design, and have the confidence to continue working in ceramics. \r\nWho is this course for?\r\nThis course is suitable for children aged 6 to 12 and accompanied with their parent/guardian. It is open to all levels and is perfect for any family looking for an opportunity to enjoy learning together. \r\nThe course is accessible for people with disabilities who can participate in practical art and craft activities, however, please note that you do need dexterity in your hands to work with clay. The room is wheelchair accessible.\r\nAge ranges are set carefully to take into account key age developments, materials being used and course stimulus. It is very important that age ranges are not too large or across key stages and therefore need to be adhered to.\r\nDo you need to bring anything?\r\nYou do not need to bring anything, all materials and equipment are provided. \r\nAre there any additional costs?\r\nThere are no additional costs. The course price includes all materials and firing of your work. Please note that there will be a clay and firing charge for any oversized work, please discuss with the tutor. \r\nThe course price covers one adult and one child. There is a charge for each additional person (child or adult). At least one adult must be present for every three children. \r\nWho teaches this course?\r\nAndrea Clarke"
+      }
+    ],
+    "images": []
+  }
+]

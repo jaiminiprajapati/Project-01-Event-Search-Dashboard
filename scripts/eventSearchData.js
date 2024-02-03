@@ -1,0 +1,14 @@
+const API_KEY =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmYxYThmY2MtOTY1My00MTUwLWJiNTUtOWQ0NTg5ZjMwMjUyIiwia2V5X2lkIjoiMTBhMzA1OGItMzljOS00YmMzLWEwZjMtNjZiOGY5M2U0NTY5IiwiaWF0IjoxNzA2NzM4MDkzfQ.5pv2xxVdYSLBNg6rLoEKLYHiCpLHXJEIf2TmhyViXHU";
+
+let cityName = "Birmingham";
+
+let bearer = "Bearer " + API_KEY;
+
+const headers = { Authorization: bearer }; // auth header with bearer token
+
+var URL = "https://api.datathistle.com/v1/events?location=" + cityName;
+
+fetch(URL, { headers })
+  .then((response) => response.json())
+  .then((data) => console.log(JSON.stringify(data)));
