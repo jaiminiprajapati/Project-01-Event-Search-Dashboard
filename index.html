@@ -1,292 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+    />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
-  <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' />
-  <link rel="stylesheet" href="style.css" />
-
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    
 
   </script>
-  <title>Pulse</title>
-</head>
-
-<body>
-  <header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">PULSE</a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-          <form class="d-flex">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search">
-              <button type="button" class="btn btn-secondary"><i class="bi-search"></i></button>
+    <title>Pulse</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">PULSE</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+              <form class="d-flex">
+                <div class="input-group">                    
+                    <input type="text" class="form-control" id="search" placeholder="Search">
+                    <button type="button" class="btn btn-secondary" id="searchBtn"><i class="bi-search"></i></button>
+                </div>
+              </form>
+                <div class="navbar-nav nav-fill w-100">
+                    <a href="#" class="nav-item nav-link active">FIND EVENTS</a>
+                    <a href="#" class="nav-item nav-link">CREATE EVENTS</a>
+                    <a href="#" class="nav-item nav-link">LOG IN</a>
+                    <a href="#" class="nav-item nav-link">SIGN UP</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">CATEGORIES</a>
+                        <div class="dropdown-menu">
+                          <a href="#" class="dropdown-item">MUSIC</a>
+                          <a href="#" class="dropdown-item">NIGHTLIFE</a>
+                          <a href="#" class="dropdown-item">PERFORMING & VISUAL ART</a>
+                          <a href="#" class="dropdown-item">NETWORKING</a>
+                          <a href="#" class="dropdown-item">FOOD & DRINK</a>
+                          <a href="#" class="dropdown-item">HOBBIES</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </form>
-          <div class="navbar-nav nav-fill w-100">
-            <a href="#" class="nav-item nav-link active">FIND EVENTS</a>
-            <a href="#" class="nav-item nav-link">CREATE EVENTS</a>
-            <a href="#" class="nav-item nav-link">LOG IN</a>
-            <a href="#" class="nav-item nav-link">SIGN UP</a>
-            <div class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">SELECT YOUR CITY</a>
-              <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">1</a>
-                <a href="#" class="dropdown-item">2</a>
-                <a href="#" class="dropdown-item">3</a>
+        </div>
+      </nav>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./image/Banner.jpg" class="d-block w-100" alt="banner">
+          </div>
+          <div class="carousel-item">
+            <img src="./image/Banner1.png" class="d-block w-100" alt="banner">
+          </div>
+        </div>
+      </div>
+    </header>
+    <br>
+    <section id="topNav">
+      
+      <div class="btn-group">
+        <button type="button" class="btn btn-lg btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+          SEARCH EVENT BY CATEGORIES
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+          <li><button class="dropdown-item" type="button">MUSIC</button></li>
+          <li><button class="dropdown-item" type="button">NIGHTLIFE</button></li>
+          <li><button class="dropdown-item" type="button">PERFORMING & VISUAL ART</button></li>
+          <li><button class="dropdown-item" type="button">NETWORKING</button></li>
+          <li><button class="dropdown-item" type="button">FOOD & DRINK</button></li>
+          <li><button class="dropdown-item" type="button">HOBBIES</button></li>
+
+        </ul>
+      </div>
+
+    </section>
+
+
+    <section id="trending">
+      <div class="container-fluid p-5">
+        <h4>MUSIC FESTIVAL</h4>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/festivals/north-east-summer-sound/#about"><img src="./image/music festival/Summer Sound Music Festival.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Summer Sound Music Festival</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Summer Sound Music Festival returns to Guisborough with a full weekend of live entertainment from the UK's best tribute bands and artists on Friday 26th, Saturday 27th and Sunday 28th July 2024.
+
+                    It's Teesside's favourite music festival and attracts thousands of people from across the country.
+                    
+                    </small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/festivals/liverpool-sound-city/"><img src="./image/music festival/Liverpool Sound City Festival.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Liverpool Sound City Festival</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Sound City returns in 2024 on May 4th/5th. Following a memorable festival this year featuring headline sets from The Reytons and Miaise Peters, the festival promises to return once again next year for a weekend that will showcase the very best new artists from across the world once more! Sound City is the UK’s leading independent festival for new music and was named ‘Best Metropolitan Festival’ at the most recent UK Festival Awards. A very limited number of Super-Early Bird tickets are on sale now! </small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/festivals/Isle-Of-Wight/"><img src="./image/music festival/Isle of Wight Festival.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Isle of Wight Festival</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Beginning life way back in 1968, the Isle of Wight festival gained significant notoriety as in 1970, after record breaking attendance, Parliament passed a law entitled the Isle of Wight Act, which banned events of over 5000 in attendance to be held on the Island. Thankfully, in 2002, the festival was revived, and has continued to expand with each passing year, and gain more fans as it goes.</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/festivals/belladrum/"><img src="./image/music festival/Belladrum Tartan Heart Festival.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Belladrum Tartan Heart Festival</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Belladrum Tartan Heart Festival is a firm favourite on the festival calendar, with a loyal following of fervent fans that return year on year. 
+
+                    With fantastic music ranging across a variety of genres - indie, rock, Dance, Celtic, Celtic rock, blues, roots, singer-songwriter and many more - as well as a brilliant array of children's entertainment, street theatre, cabaret, cinema, alternative therapies and food and drink so is perfect for all of the family.   </small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/festivals/kendal-calling/"><img src="./image/music festival/Kendal Calling Festival.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Kendal Calling Festival</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Having become known as one of the best all-rounders on the circuit, the festival welcomes families and groups alike, with a whole array of kids entertainment, magic shows, cinema, gourmet food and real ales, as well as secret sets and impromptu performances.</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/festivals/highest-point-festival/"><img src="./image/music festival/Highest Point Festival.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Highest Point Festival</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">The Award-Winning Highest Point returns to the glorious Williamson Park in Lancaster on Friday 10th & Saturday 11th May 2024.
+
+                    The stunning 54-acre grounds is one of Northern England’s best-kept public parks and will once again play host to some of the most revered names in British music, representing an eclectic spectrum of sounds and styles.</small>
+                </div>
               </div>
             </div>
           </div>
-          <div class="navbar-nav">
-            <a href="#" class="nav-item nav-link">Login</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <img src="./image/Banner.jpg" class="img-fluid" alt="banner" />
-  </header>
-  <br>
-  <div id="topfooter">
-    <div class="containter">
-      <div class="row">
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-          <a href="#">MUSIC</a>
-        </div>
-        <div class="col-lg-2 text-center">
-          <a href="#">NIGHTLIFT</a>
-        </div>
-        <div class="col-lg-2 text-center">
-          <a href="#">PERFORMING & VISUAL ARTS</a>
-        </div>
-        <div class="col-lg-2 text-center">
-          <a href="#">NETWORKING</a>
-        </div>
-        <div class="col-lg-2 text-center">
-          <a href="#">FOOD & DRINK</a>
-        </div>
-        <div class="col-lg-2 text-center">
-          <a href="#">HOBBIES</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  <div class="container-fluid p-5">
-    <h4>TRENDING</h4>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <img src="./image/australia_evening_opera_30786_1920x1080.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Australia</h5>
-          </div>
-          <div class="card-footer">
-            <small class="text-body-secondary">£20.00</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="./image/europe_park_walls_73505_1920x1080.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Europe</h5>
-          </div>
-          <div class="card-footer">
-            <small class="text-body-secondary">£68.00</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="./image/railroad_underground_man_119354_1920x1080.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Railroad</h5>
-          </div>
-          <div class="card-footer">
-            <small class="text-body-secondary">£128.00</small>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <container class="container-fluid p-5">
-    <div class="row row-equal-height">
-
-      <div class="row-xs-6" id="left">
-        <h2>FIND MORE OF THE EVENTS YOU LOVE</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, maxime?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, maxime?
-        </p>
-        <button type="button" class="btn btn-secondary">Find Events</button>
-      </div>
-      <div class="row-xs-6" id="right">
-        <p><strong>Banner/ Video</strong></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reiciendis, nam unde ducimus dolorem
-          consectetur quod placeat aliquid accusamus itaque illo deleniti ab ea sapiente, adipisci asperiores dolorum
-          eius fuga molestias eos atque. Quod adipisci fugiat obcaecati, quis nobis, pariatur officia consectetur omnis
-          a, praesentium facere. Laboriosam non doloribus reiciendis.</p>
-
       </div>
 
-    </div>
+    </section>
+    <hr>
+    <section class="midPage">
+      <div class="container-fluid p-5">
+        <div class="row row-equal-height">
+          <div class="row-md-6 left">
+            <h4>Birmingham BEEATS Concert</h4>
+            <img src="./image/eventban1.jpg" class="img-fluid" alt="banner" />
+          </div>
+          <div class="row-md-6 right">
+            <h4>About Birmingham BEEATS Concert</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat autem explicabo dolorum saepe, sunt sequi officia rerum quisquam iusto architecto reprehenderit facere sit nulla corrupti minima, voluptas optio doloribus natus. Voluptate cumque autem doloribus, porro illo aspernatur amet fuga magnam expedita ipsa earum odit minima delectus reprehenderit nam facilis placeat! Doloremque neque, a unde quidem consequatur perspiciatis ab sed impedit. Voluptates officia debitis nemo. Quia asperiores voluptates pariatur fugit, quas, ullam, vero ab animi numquam commodi praesentium explicabo! Consectetur saepe ut distinctio ipsam consequatur. Sapiente, quibusdam quis ea perferendis commodi, enim ad distinctio doloribus laudantium blanditiis ut quos nisi.
+            </p>
+              <button type="button" class="btn btn-secondary">More information of this Events</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid p-5">
+        <div class="row row-equal-height">
+          <div class="row-md-6 left">
+            <h4>Birmingham Creativite</h4>
+            <img src="./image/eventban2.jpg" class="img-fluid" alt="banner" />
+          </div>
+          <div class="row-md-6 right">
+            <h4>About Birmingham Creativite</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat autem explicabo dolorum saepe, sunt sequi officia rerum quisquam iusto architecto reprehenderit facere sit nulla corrupti minima, voluptas optio doloribus natus. Voluptate cumque autem doloribus, porro illo aspernatur amet fuga magnam expedita ipsa earum odit minima delectus reprehenderit nam facilis placeat! Doloremque neque, a unde quidem consequatur perspiciatis ab sed impedit. Voluptates officia debitis nemo. Quia asperiores voluptates pariatur fugit, quas, ullam, vero ab animi numquam commodi praesentium explicabo! Consectetur saepe ut distinctio ipsam consequatur. Sapiente, quibusdam quis ea perferendis commodi, enim ad distinctio doloribus laudantium blanditiis ut quos nisi.
+            </p>
+              <button type="button" class="btn btn-secondary">More information of this Events</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="container-fluid p-5">
+        <div class="row row-equal-height">
+          <div class="row-md-6 left">
+            <h4>Business Summit</h4>
+            <img src="./image/eventban3.jpg" class="img-fluid" alt="banner" />
+          </div>
+          <div class="row-md-6 right">
+            <h4>About Business Summit</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat autem explicabo dolorum saepe, sunt sequi officia rerum quisquam iusto architecto reprehenderit facere sit nulla corrupti minima, voluptas optio doloribus natus. Voluptate cumque autem doloribus, porro illo aspernatur amet fuga magnam expedita ipsa earum odit minima delectus reprehenderit nam facilis placeat! Doloremque neque, a unde quidem consequatur perspiciatis ab sed impedit. Voluptates officia debitis nemo. Quia asperiores voluptates pariatur fugit, quas, ullam, vero ab animi numquam commodi praesentium explicabo! Consectetur saepe ut distinctio ipsam consequatur. Sapiente, quibusdam quis ea perferendis commodi, enim ad distinctio doloribus laudantium blanditiis ut quos nisi.
+            </p>
+              <button type="button" class="btn btn-secondary">More information of this Events</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+      </div>
+    </section>
 
+    <section id="topEvents">
+      <div class="container-fluid p-5">
+        <h4>TOP EVENTS</h4>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/Forum-Birmingham/RB-Block-Party-Bham-Dru-Hill-Musiq-BLACKstreet--Donell-Jones/36745436/"><img src="./image/events/R&B Block Party B'ham Dru Hill Musiq BLACKstreet & Donell Jones.avif" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">R&B Block Party B'ham Dru Hill Musiq BLACKstreet & Donell Jones</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Blackstreet | dru hill | Donell Jones | Sisqo | Tweet | Mic Lowry | Trevor Nelson
+                    Music Genres
 
-    <div class="container-fluid p-5">
-      <h4>TOP CITIES</h4>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/australia_evening_opera_30786_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Australia</h5>
+R&B | Soul | 90s
+                  </small>
+                </div>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/Forum-Birmingham/Super-Sonix-16-FULL-CIRCLE/37166300/"><img src="./image/events/Super Sonix 16+ FULL CIRCLE.avif" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Super Sonix 16+ FULL CIRCLE
+
+                    </h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Serum | Sota | MC Busta DNB | Zylo
+                    Music Genres
+
+                    UK Garage | Drum n Bass | Bassline | Bass Music | Jungle</small>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/bridge_architecture_gothic_134848_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Bridge</h5>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/LAB11/GLAS-Easter-Bank-Holiday-Rave/37388834/"><img src="./image/events/GLAS Easter Bank Holiday Rave.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">GLAS Easter Bank Holiday Rave</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">The BIGGEST, BADDEST & BEST Bank Holiday party is back in action...THE GLAS EASTER RAVE!
+                    House | UK Garage | Drum n Bass | Tech House | Bassline
+                  </small>
+                </div>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/LAB11/WYLD-4th-Birthday-W-ROSSI/37173344/"><img src="./image/events/WYLD 4th Birthday W ROSSI..avif" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">WYLD 4th Birthday W/ ROSSI.
+
+                    </h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Rossi. | Ryan Resso | L.P Rhythm
+                    Music Genres
+
+                    House | Deep House | Tech House | Minimal</small>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/bridge_autumn_city_121892_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Bridge</h5>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/Zellig-Outdoor-Location/The-2-Tone-Ska-Orchestra/36487458/"><img src="./image/events/The 2 Tone Ska Orchestra.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">The 2 Tone Ska Orchestra</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">50 piece Orchestra & vocalists performing hits including : Ghost Town, Too Much Too Young, Special Brew, A Message To You Rudy & many more...
+                    The 2 Tone Ska Orchestra
+
+The Beat | The Selecter | The Beat featuring Ranking Jnr
+
+Music Genres
+
+Ska | Reggae
+                  </small>
+                </div>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/The-Tunnel-Club/House-Of-God-31st-Birthday/37271571/"><img src="./image/events/House Of God 31st Birthday.avif" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">House Of God 31st Birthday</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Surgeon | Sir Real | Paul Damage
+
+                    Music Genres
+                    
+                    Breaks | Drum n Bass | Techno | Acid House | Jungle</small>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/city_japan_temple_58018_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Japan</h5>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/Forum-Birmingham/Hannah-Laing--Welcome-To-The-Doof/36730999/"><img src="./image/events/Hannah Laing  Welcome To The Doof.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Hannah Laing | Welcome To The Doof</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Louder presents Hannah Laing in Birmingham Hannah Laing Biianco Ammara Sarah G Mddltn</small>
+                </div>
+              </div>
             </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/Luna-Springs-Digbeth-/BINGO-LINGO---Birmingham---Paddys-Special/37162705/"><img src="./image/events/BINGO LINGO - Birmingham - Paddy's Special!.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">BINGO LINGO - Birmingham - Paddy's Special!</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Indoors at Luna Springs, one of Birmingham's most loved venues. BINGO LINGO - Prizes that will change your life forever!</small>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/hong_kong_china_skyscrapers_119347_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Hong Kong</h5>
-            </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/europe_park_walls_73505_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Europe</h5>
-            </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/city_rocks_mountains_134667_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Mountain</h5>
-            </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/montsaintmichel_france_island_125790_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">France</h5>
-            </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./image/railroad_underground_man_119354_1920x1080.jpg" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Railroad</h5>
-            </div>
-            <div class="card-footer">
-              <small class="text-body-secondary">Last updated 3 mins ago</small>
+            <div class="col">
+              <div class="card h-100">
+                <a href="https://www.skiddle.com/whats-on/Birmingham/Herbert%27s-Yard/Bingo-Bab---A-Charity-Bingo-Night-with-Barbara-Nice/37181548/"><img src="./image/events/Bingo Bab - A Charity Bingo Night with Barbara Nice.jpg" class=card-img-top alt="..." /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Bingo Bab - A Charity Bingo Night with Barbara Nice</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Barbara Nice hosts a very special night of bingo at Herbert's Yard.</small>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-    </div>
-
-
-
+    </section>
     <!-- Footer -->
-    <div class="footer-dark">
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-md-3 item">
-              <h3>Services</h3>
-              <ul>
-                <li><a href="#">Web design</a></li>
-                <li><a href="#">Development</a></li>
-                <li><a href="#">Hosting</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-md-3 item">
-              <h3>About</h3>
-              <ul>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Careers</a></li>
-              </ul>
-            </div>
-            <div class="col-md-6 item text">
-              <h3>PULSE</h3>
-              <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus
-                elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-            </div>
-            <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
-                  class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a
-                href="#"><i class="icon ion-social-instagram"></i></a></div>
+    <footer>
+      <div class="footer-dark">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-6 item text">
+                    <h3>PULSE</h3>
+                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                      
+                  <ul>
+                      <li><a href="#">NETWORKING</a></li>
+                      <li><a href="#">FAQ'S</a></li>
+                      <li><a href="#">CONTACT US</a></li>
+                  </ul>
+              </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      
+                      <ul>
+                          <li><a href="#">WORK WITH US</a></li>
+                          <li><a href="#">TERMS OF USE</a></li>
+                          <li><a href="#">PRIVACY POLICY</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      
+                      <ul>
+                          <li><a href="#">ABOUT US</a></li>
+                          <li><a href="#">HELP CENTRE</a></li>
+                          <li><a href="#">Careers</a></li>
+                      </ul>
+                  </div>
+                  <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+              </div>
+              <p class="copyright">PULSE</p>
           </div>
-          <p class="copyright">PULSE</p>
         </div>
-      </footer>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
+    </footer>
 
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
