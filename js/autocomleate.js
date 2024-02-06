@@ -1,4 +1,4 @@
-const API_KEY = "e4e6db07aa0b40779b65cefa32c7cbc9";
+const OPENCAGEDATA_API_KEY = "e4e6db07aa0b40779b65cefa32c7cbc9";
 
 var cities = [];
 
@@ -17,7 +17,7 @@ $("#city").bind("change paste keyup", function () {
     "https://api.opencagedata.com/geocode/v1/json?q=" +
     cityName +
     "&key=" +
-    API_KEY;
+    OPENCAGEDATA_API_KEY;
 
   fetch(QUERY_URL)
     .then(function (response) {
