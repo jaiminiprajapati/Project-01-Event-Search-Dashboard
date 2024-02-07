@@ -1,35 +1,34 @@
-const OPENCAGEDATA_API_KEY = "e4e6db07aa0b40779b65cefa32c7cbc9";
+//
+// $(function () {
+//   $("#search").autocomplete({
+//     source: cities,
+//   });
+// });
 
-var cities = [];
+// $("#search").bind("change paste keyup", function () {
+//   var cityName = $(this).val();
 
-var selectedCity = "";
+//   getAutocompleteData(cityName);
+// });
 
-$(function () {
-  $("#city").autocomplete({
-    source: cities,
-  });
-});
+// function getAutocompleteData(cityName) {
+//   var QUERY_URL =
+//     "https://api.opencagedata.com/geocode/v1/json?q=" +
+//     cityName +
+//     "&key=" +
+//     OPENCAGEDATA_API_KEY;
 
-$("#city").bind("change paste keyup", function () {
-  var cityName = $(this).val();
+//   fetch(QUERY_URL)
+//     .then(function (response) {
+//       return response.json();
+//     })
+//     .then(function (data) {
+//       data.results.forEach((element) => {
+//         cities.push(element.formatted);
+//       });
+//     });
+// }
 
-  var QUERY_URL =
-    "https://api.opencagedata.com/geocode/v1/json?q=" +
-    cityName +
-    "&key=" +
-    OPENCAGEDATA_API_KEY;
-
-  fetch(QUERY_URL)
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      data.results.forEach((element) => {
-        cities.push(element.formatted);
-      });
-    });
-});
-
-$("#search-button").on("click", data, function () {
-  // Do anything
-});
+// $("#searchBtn").on("click", data, function () {
+// add fetching from events api
+// });
