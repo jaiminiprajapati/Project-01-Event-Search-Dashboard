@@ -1,6 +1,6 @@
 const OPENCAGEDATA_API_KEY = "e4e6db07aa0b40779b65cefa32c7cbc9";
 
-var cities = [];
+var cities = ["Birmingham",  "London", "Edinburgh"];
 
 var selectedCity = "";
 
@@ -54,3 +54,25 @@ function getEventsData(cityName) {
 $("#searchBtn").on("click", data, function () {
   // add fetching from events api
 });
+
+
+function searchEvents(searchText) {
+  var headers = new Headers();
+  headers.set("Authorization", "Bearer " + datathistleApiKey);
+  fetch("https://api.datathistle.com/v1/search?query=event", {
+    headers: headers,
+  })
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      console.log(data);
+    });
+}
+$(document).ready(function () {
+  $(searchBtn).click(function () {
+    searchedCity = $(inputEl).val();
+    searchEvents(searchedCity);
+  });
+});
+document.querySelector("#searchBtn").addEventListener("click", searchEvents);
