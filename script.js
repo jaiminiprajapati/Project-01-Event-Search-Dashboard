@@ -1,64 +1,46 @@
-const OPENCAGEDATA_API_KEY = "e4e6db07aa0b40779b65cefa32c7cbc9";
+var cityName = "";
+const searchBtn = $("#searchBtn");
+const inputEl = $("#search");
 
-var cities = ["Birmingham",  "London", "Edinburgh"];
+//
+// $(function () {
+//   $("#search").autocomplete({
+//     source: cities,
+//   });
+// });
 
-var selectedCity = "";
+// $("#search").bind("change paste keyup", function () {
+//   var cityName = $(this).val();
 
-$(function () {
-  $("#search").autocomplete({
-    source: cities,
-  });
-});
+//   getAutocompleteData(cityName);
+// });
 
-$("#search").bind("change paste keyup", function () {
-  var cityName = $(this).val();
+// function getAutocompleteData(cityName) {
+//   var QUERY_URL =
+//     "https://api.opencagedata.com/geocode/v1/json?q=" +
+//     cityName +
+//     "&key=" +
+//     OPENCAGEDATA_API_KEY;
 
-  getAutocompleteData(cityName);
-});
+//   fetch(QUERY_URL)
+//     .then(function (response) {
+//       return response.json();
+//     })
+//     .then(function (data) {
+//       data.results.forEach((element) => {
+//         cities.push(element.formatted);
+//       });
+//     });
+// }
 
-function getAutocompleteData(cityName) {
-  var QUERY_URL =
-    "https://api.opencagedata.com/geocode/v1/json?q=" +
-    cityName +
-    "&key=" +
-    OPENCAGEDATA_API_KEY;
+// $("#searchBtn").on("click", data, function () {
+// add fetching from events api
+// });
 
-  fetch(QUERY_URL)
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      data.results.forEach((element) => {
-        cities.push(element.formatted);
-      });
-    });
-}
-
-function getEventsData(cityName) {
-  const datathistleApiKey =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmYxYThmY2MtOTY1My00MTUwLWJiNTUtOWQ0NTg5ZjMwMjUyIiwia2V5X2lkIjoiMTBhMzA1OGItMzljOS00YmMzLWEwZjMtNjZiOGY5M2U0NTY5IiwiaWF0IjoxNzA2NzM4MDkzfQ.5pv2xxVdYSLBNg6rLoEKLYHiCpLHXJEIf2TmhyViXHU";
-
-  let cityName = "Birmingham";
-
-  let bearer = "Bearer " + datathistleApiKey;
-
-  const headers = { Authorization: bearer }; // auth header with bearer token
-
-  var URL = "https://api.datathistle.com/v1/events?location=" + cityName;
-
-  fetch(URL, { headers })
-    .then((response) => response.json())
-    .then((data) => console.log(JSON.stringify(data)));
-}
-
-$("#searchBtn").on("click", data, function () {
-  // add fetching from events api
-});
-
-
-function searchEvents(searchText) {
+function searchEvents() {
+  var searchedCity = $().val();
   var headers = new Headers();
-  headers.set("Authorization", "Bearer " + datathistleApiKey);
+  headers.set("Authorization", "Bearer " + DATATHISTLE_API_KEY);
   fetch("https://api.datathistle.com/v1/search?query=event", {
     headers: headers,
   })
@@ -69,10 +51,13 @@ function searchEvents(searchText) {
       console.log(data);
     });
 }
+
 $(document).ready(function () {
+  console.log("jQuery is loaded");
   $(searchBtn).click(function () {
     searchedCity = $(inputEl).val();
     searchEvents(searchedCity);
   });
 });
-document.querySelector("#searchBtn").addEventListener("click", searchEvents);
+
+document.querySelector(searchBtn).addEventListener("click", searchEvents);
