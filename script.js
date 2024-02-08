@@ -38,6 +38,7 @@ $(document).ready(function () {
       })
       .then(function (data) {
         seatGeekData = data;
+        console.log(data);
       });
   }
 
@@ -48,6 +49,7 @@ $(document).ready(function () {
     var eventRow = $("#events-cards-row");
 
     var colContainer = $("<div></div>").addClass("col");
+
     var cardContainer = $("<div></div>").addClass("card h-100");
 
     var imgContainer = $("<a></a>").attr("href", "");
@@ -59,13 +61,20 @@ $(document).ready(function () {
     var cardBody = $("<div></div>").addClass("card-body");
     var cardTitle = $("<h5></h5>").addClass("card-title");
 
-    var cardFooter = $("<div></div>");
-    var footerText = $("<small></small>").addClass("card-title");
+    var cardFooterContainer = $("<div></div>").addClass("card-footer");
+    var footerText = $("<small></small>").addClass("text-body-secondary");
 
-    // create card
-    eventRow
-      .append(colContainer) //col
-      .append(cardContainer); //container
+    // create colum container for card
+    eventRow.append(colContainer);
+
+    // create container for card
+    colContainer.append(cardContainer);
+
+    // add card structure
+    cardContainer
+      .append(imgContainer)
+      .append(cardBody)
+      .append(cardFooterContainer);
   }
 
   function createEventsRowContainer() {
@@ -94,7 +103,9 @@ $(document).ready(function () {
 
   function renderEventsSection() {
     // get data
-    var eventsData = getSeatgeekEventsByVenue(cityName);
+    var responseData = getSeatgeekEventsByVenue(cityName);
+
+    // get arr form data and save it in  eventsList
 
     // create container
     createEventsContainer();
@@ -103,12 +114,12 @@ $(document).ready(function () {
     createEventsRowContainer();
 
     // create cards containers
-    array.forEach((obj) => {
+    eventsList.forEach((obj) => {
       createEventsCardContainerStructure();
     });
 
     // populate cards information
-    eventsData.forEach((obj) => {
+    eventsList.forEach((obj) => {
       populateEventCard();
     });
   }
