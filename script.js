@@ -27,7 +27,7 @@ $(document).ready(function () {
 
   function getSeatgeekEventsByVenue(cityName) {
     const url =
-      "https://api.seatgeek.com/2/venues?city=" +
+      "https://api.seatgeek.com/2/events?venue.city=" +
       cityName +
       "&client_id=" +
       SEATGEEK_API_KEY;
@@ -37,8 +37,20 @@ $(document).ready(function () {
         return response.json();
       })
       .then(function (data) {
-        seatGeekData = data;
-        console.log(data);
+        seatGeekData = data.events;
+        console.log(data.events);
+        seatGeekData.forEach(obj =>{
+          if(obj.venue.has_upcoming_events === true){
+            console.log(obj.title);
+            console.log(obj.type);
+            console.log(obj.datetime_utc);
+            console.log(obj.venue.address);
+            console.log(obj.venue.city);
+            console.log(obj.venue.country);
+            console.log(obj.url);
+          }
+        })
+
       });
   }
 
