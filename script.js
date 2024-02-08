@@ -54,27 +54,61 @@ $(document).ready(function () {
       });
   }
 
-  function populateEventCard() {}
+  function populateEventCardData(eventData, cardIndex) {
+    var eventTitle =
+      "name" in eventData
+        ? eventData[cardIndex].name
+        : eventData[cardIndex].name_v2;
 
-  function createEventsCardContainerStructure() {
+    var location = `${eventData[cardIndex.extended_address]} `;
+
+    // add href to a tag of img container
+    $(`#event-img-container-${cardIndex}`).attr(
+      "href",
+      eventData[cardIndex].url
+    );
+
+    // TODO add image
+    // * * ID: `event-card-img-${cardIndex}`
+    // ? check if data have img url if there is no image add from templates
+
+    // add title
+    $(`#event-card-title-${cardIndex}`).text(eventTitle);
+
+    // Add footer information
+    $(`#event-card-footer-text-${cardIndex}`).text(``);
+  }
+
+  function createEventsCardContainerStructure(cardIndex) {
     // get parent
     var eventRow = $("#events-cards-row");
 
-    var colContainer = $("<div></div>").addClass("col");
+    var colContainer = $("<div></div>")
+      .addClass("col")
+      .attr("id", `event-card-col-${cardIndex}`);
 
     var cardContainer = $("<div></div>").addClass("card h-100");
 
-    var imgContainer = $("<a></a>").attr("href", "");
+    var imgContainer = $("<a></a>").attr(
+      "id",
+      `event-img-container-${cardIndex}`
+    );
+
     var img = $("<img/>")
-      .attr("src", "")
-      .attr("alt", "")
-      .addClass("card-img-top");
+      .addClass("card-img-top")
+      .attr("id", `event-card-img-${cardIndex}`);
 
     var cardBody = $("<div></div>").addClass("card-body");
-    var cardTitle = $("<h5></h5>").addClass("card-title");
+
+    var cardTitle = $("<h5></h5>")
+      .addClass("card-title")
+      .attr("id", `event-card-title-${cardIndex}`);
 
     var cardFooterContainer = $("<div></div>").addClass("card-footer");
-    var footerText = $("<small></small>").addClass("text-body-secondary");
+
+    var footerText = $("<small></small>")
+      .addClass("text-body-secondary")
+      .attr("id", `event-card-footer-text-${cardIndex}`);
 
     // create colum container for card
     eventRow.append(colContainer);
@@ -87,6 +121,15 @@ $(document).ready(function () {
       .append(imgContainer)
       .append(cardBody)
       .append(cardFooterContainer);
+
+    // add img to img container
+    imgContainer.append(img);
+
+    // add title to card
+    cardBody.append(cardTitle);
+
+    // add footer text
+    cardFooterContainer.append(footerText);
   }
 
   function createEventsRowContainer() {
@@ -125,14 +168,14 @@ $(document).ready(function () {
     // create events row
     createEventsRowContainer();
 
-    // create cards containers
-    eventsList.forEach((obj) => {
-      createEventsCardContainerStructure();
-    });
+    // create cards html structure
+    for (let cardIndex = 0; cardIndex < eventsList.length; cardIndex++) {
+      createEventsCardContainerStructure(cardIndex);
+    }
 
     // populate cards information
-    eventsList.forEach((obj) => {
-      populateEventCard();
+    eventsList.forEach((eventData, cardIndex) => {
+      populateEventCardData(eventData, cardIndex);
     });
   }
 
