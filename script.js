@@ -75,6 +75,15 @@ $(document).ready(function () {
       .append(imgContainer)
       .append(cardBody)
       .append(cardFooterContainer);
+
+    // add img to img container
+    imgContainer.append(img);
+
+    // add title to card
+    cardBody.append(cardTitle);
+
+    // add footer text
+    cardFooterContainer.append(footerText);
   }
 
   function createEventsRowContainer() {
