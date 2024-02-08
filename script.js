@@ -44,25 +44,37 @@ $(document).ready(function () {
 
   function populateEventCard() {}
 
-  function createEventsCardContainerStructure() {
+  function createEventsCardContainerStructure(cardIndex) {
     // get parent
     var eventRow = $("#events-cards-row");
 
-    var colContainer = $("<div></div>").addClass("col");
+    var colContainer = $("<div></div>")
+      .addClass("col")
+      .attr("id", `event-card-col-${cardIndex}`);
 
     var cardContainer = $("<div></div>").addClass("card h-100");
 
-    var imgContainer = $("<a></a>").attr("href", "");
+    var imgContainer = $("<a></a>")
+      .attr("href", "")
+      .attr("id", `event-img-container-${cardIndex}`);
+
     var img = $("<img/>")
       .attr("src", "")
       .attr("alt", "")
-      .addClass("card-img-top");
+      .addClass("card-img-top")
+      .attr("id", `event-card-img-${cardIndex}`);
 
     var cardBody = $("<div></div>").addClass("card-body");
-    var cardTitle = $("<h5></h5>").addClass("card-title");
+
+    var cardTitle = $("<h5></h5>")
+      .addClass("card-title")
+      .attr("id", `event-card-title-${cardIndex}`);
 
     var cardFooterContainer = $("<div></div>").addClass("card-footer");
-    var footerText = $("<small></small>").addClass("text-body-secondary");
+
+    var footerText = $("<small></small>")
+      .addClass("text-body-secondary")
+      .attr("id", `event-card-footer-text-${cardIndex}`);
 
     // create colum container for card
     eventRow.append(colContainer);
@@ -123,12 +135,12 @@ $(document).ready(function () {
     createEventsRowContainer();
 
     // create cards containers
-    eventsList.forEach((obj) => {
-      createEventsCardContainerStructure();
+    eventsList.forEach((eventData, i) => {
+      createEventsCardContainerStructure(i);
     });
 
     // populate cards information
-    eventsList.forEach((obj) => {
+    eventsList.forEach((eventData, i) => {
       populateEventCard();
     });
   }
