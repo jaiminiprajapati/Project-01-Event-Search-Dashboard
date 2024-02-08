@@ -42,7 +42,30 @@ $(document).ready(function () {
       });
   }
 
-  function populateEventCard(eventData, cardIndex) {}
+  function populateEventCardData(eventData, cardIndex) {
+    var eventTitle =
+      "name" in eventData
+        ? eventData[cardIndex].name
+        : eventData[cardIndex].name_v2;
+
+    var location = `${eventData[cardIndex.extended_address]} `;
+
+    // add href to a tag of img container
+    $(`#event-img-container-${cardIndex}`).attr(
+      "href",
+      eventData[cardIndex].url
+    );
+
+    // TODO add image
+    // * * ID: `event-card-img-${cardIndex}`
+    // ? check if data have img url if there is no image add from templates
+
+    // add title
+    $(`#event-card-title-${cardIndex}`).text(eventTitle);
+
+    // Add footer information
+    $(`#event-card-footer-text-${cardIndex}`).text(``);
+  }
 
   function createEventsCardContainerStructure(cardIndex) {
     // get parent
@@ -54,13 +77,12 @@ $(document).ready(function () {
 
     var cardContainer = $("<div></div>").addClass("card h-100");
 
-    var imgContainer = $("<a></a>")
-      .attr("href", "")
-      .attr("id", `event-img-container-${cardIndex}`);
+    var imgContainer = $("<a></a>").attr(
+      "id",
+      `event-img-container-${cardIndex}`
+    );
 
     var img = $("<img/>")
-      .attr("src", "")
-      .attr("alt", "")
       .addClass("card-img-top")
       .attr("id", `event-card-img-${cardIndex}`);
 
@@ -141,7 +163,7 @@ $(document).ready(function () {
 
     // populate cards information
     eventsList.forEach((eventData, cardIndex) => {
-      populateEventCard(eventData, cardIndex);
+      populateEventCardData(eventData, cardIndex);
     });
   }
 
