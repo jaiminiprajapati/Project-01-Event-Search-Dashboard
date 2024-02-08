@@ -42,7 +42,7 @@ $(document).ready(function () {
       });
   }
 
-  function populateEventCard() {}
+  function populateEventCard(eventData, cardIndex) {}
 
   function createEventsCardContainerStructure(cardIndex) {
     // get parent
@@ -134,14 +134,14 @@ $(document).ready(function () {
     // create events row
     createEventsRowContainer();
 
-    // create cards containers
-    eventsList.forEach((eventData, i) => {
-      createEventsCardContainerStructure(i);
-    });
+    // create cards html structure
+    for (let cardIndex = 0; cardIndex < eventsList.length; cardIndex++) {
+      createEventsCardContainerStructure(cardIndex);
+    }
 
     // populate cards information
-    eventsList.forEach((eventData, i) => {
-      populateEventCard();
+    eventsList.forEach((eventData, cardIndex) => {
+      populateEventCard(eventData, cardIndex);
     });
   }
 
