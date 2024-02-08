@@ -105,6 +105,8 @@ $(document).ready(function () {
     // get data
     var responseData = getSeatgeekEventsByVenue(cityName);
 
+    // get arr form data and save it in  eventsList
+
     // create container
     createEventsContainer();
 
