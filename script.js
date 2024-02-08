@@ -4,10 +4,11 @@ $(document).ready(function () {
   const searchBtn = $("#searchBtn");
   const inputEl = $("#search");
 
-  var cityName = "Birmingham"; // remove name after finish with dev
+  var cityName = ""; // remove name after finish with dev
   var eventsList = [];
+  var seatGeekData = [];
 
-  function searchDatathistleEventsByLocation(cityName) {
+  function getDatathistleEventsByLocation(cityName) {
     var headers = new Headers();
 
     headers.set("Authorization", "Bearer " + DATATHISTLE_API_KEY);
@@ -19,18 +20,15 @@ $(document).ready(function () {
         return response.json();
       })
       .then(function (data) {
-        eventsList = data;
-        console.log("🚀 ~ eventsList:", eventsList);
+        return data;
       });
   }
 
-  function searchSeatgeekEventsByVenue(cityName) {
-    // https://api.seatgeek.com/2/events?client_id=MYCLIENTID
-    // https://api.seatgeek.com/2/venues?city=Birmingham&client_id=Mzk3MTk2ODF8MTcwNjkwNDA0MS41MjMzMDYx
+  function getSeatgeekEventsByVenue(cityName) {
     const url =
       "https://api.seatgeek.com/2/venues?city=" +
       cityName +
-      "&client_id" +
+      "&client_id=" +
       SEATGEEK_API_KEY;
 
     fetch(url)
@@ -38,18 +36,29 @@ $(document).ready(function () {
         return response.json();
       })
       .then(function (data) {
-        // add to array
-        console.log(typeof data);
+        seatGeekData = data;
       });
   }
 
+  function renderEventsCards() {
+    var image;
+    var date;
+    var location;
+    var title;
+    var ticketsUrl;
+    var data = getSeatgeekEventsByVenue(cityName);
+  }
+
+  function renderEventCard(eventData) {}
+
   // remove after finish with developing. this is just for test
-  searchDatathistleEventsByLocation(cityName);
-  searchSeatgeekEventsByVenue(cityName);
+  // getDatathistleEventsByLocation(cityName);
+  // getSeatgeekEventsByVenue(cityName);
 
   searchBtn.click(function () {
     cityName = $(inputEl).val();
-    searchDatathistleEventsByLocation(cityName);
-    searchSeatgeekEventsByVenue(cityName);
+    /** */
+    // getDatathistleEventsByLocation(cityName);// TODO: don't delete
+    renderEventsCards();
   });
 });
