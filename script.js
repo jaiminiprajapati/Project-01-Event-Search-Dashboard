@@ -40,13 +40,6 @@ $(document).ready(function () {
             findThicketsUrl: obj.venue.url,
           },
         });
-        // console.log(obj.title);
-        // console.log(obj.type);
-        // console.log(obj.datetime_utc);
-        // console.log(obj.venue.address);
-        // console.log(obj.venue.city);
-        // console.log(obj.venue.country);
-        // console.log(obj.url);
       }
     });
   }
