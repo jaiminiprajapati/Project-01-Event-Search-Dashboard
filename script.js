@@ -37,141 +37,26 @@ $(document).ready(function () {
         return response.json();
       })
       .then(function (data) {
-        seatGeekData = data.events;
-        console.log(data.events);
-        seatGeekData.forEach(obj =>{
-          if(obj.venue.has_upcoming_events === true){
-            console.log(obj.title);
-            console.log(obj.type);
-            console.log(obj.datetime_utc);
-            console.log(obj.venue.address);
-            console.log(obj.venue.city);
-            console.log(obj.venue.country);
-            console.log(obj.url);
-          }
-        })
-
+        data.events.forEach((event) => {
+          seatGeekData.push(event);
+          console.log(seatGeekData);
+        });
       });
   }
 
-  function populateEventCardData(eventData, cardIndex) {
-    var eventTitle =
-      "name" in eventData
-        ? eventData[cardIndex].name
-        : eventData[cardIndex].name_v2;
-
-    var location = `${eventData[cardIndex.extended_address]} `;
-
-    // add href to a tag of img container
-    $(`#event-img-container-${cardIndex}`).attr(
-      "href",
-      eventData[cardIndex].url
-    );
-
-    // TODO add image
-    // * * ID: `event-card-img-${cardIndex}`
-    // ? check if data have img url if there is no image add from templates
-
-    // add title
-    $(`#event-card-title-${cardIndex}`).text(eventTitle);
-
-    // Add footer information
-    $(`#event-card-footer-text-${cardIndex}`).text(``);
-  }
-
-  function createEventsCardContainerStructure(cardIndex) {
-    // get parent
-    var eventRow = $("#events-cards-row");
-
-    var colContainer = $("<div></div>")
-      .addClass("col")
-      .attr("id", `event-card-col-${cardIndex}`);
-
-    var cardContainer = $("<div></div>").addClass("card h-100");
-
-    var imgContainer = $("<a></a>").attr(
-      "id",
-      `event-img-container-${cardIndex}`
-    );
-
-    var img = $("<img/>")
-      .addClass("card-img-top")
-      .attr("id", `event-card-img-${cardIndex}`);
-
-    var cardBody = $("<div></div>").addClass("card-body");
-
-    var cardTitle = $("<h5></h5>")
-      .addClass("card-title")
-      .attr("id", `event-card-title-${cardIndex}`);
-
-    var cardFooterContainer = $("<div></div>").addClass("card-footer");
-
-    var footerText = $("<small></small>")
-      .addClass("text-body-secondary")
-      .attr("id", `event-card-footer-text-${cardIndex}`);
-
-    // create colum container for card
-    eventRow.append(colContainer);
-
-    // create container for card
-    colContainer.append(cardContainer);
-
-    // add card structure
-    cardContainer
-      .append(imgContainer)
-      .append(cardBody)
-      .append(cardFooterContainer);
-
-    // add img to img container
-    imgContainer.append(img);
-
-    // add title to card
-    cardBody.append(cardTitle);
-
-    // add footer text
-    cardFooterContainer.append(footerText);
-  }
-
-  function createEventsRowContainer() {
-    // get events container element
-    var eventsContainer = $("events-cards-row-container");
-
-    eventsContainer
-      .append("<div></div>")
-      .attr("id", "events-cards-row")
-      .addClass("row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4");
-  }
-
-  function createEventsContainer() {
-    // create a container
-    eventsSection.append("<div></div>").attr("id", "events-container");
-
-    // get events container element
-    var eventsContainer = $("events-container");
-
-    // create header text
-    var headerText = "Events";
-
-    // add header to container + add header text
-    eventsContainer.append("<h4></h4>").text(headerText);
-  }
-
   function renderEventsSection() {
-    // get data
-    var responseData = getSeatgeekEventsByVenue(cityName);
-
     // get arr form data and save it in  eventsList
-
-    // create container
-    createEventsContainer();
-
-    // create events row
-    createEventsRowContainer();
-
-    // create cards html structure
-    for (let cardIndex = 0; cardIndex < eventsList.length; cardIndex++) {
-      createEventsCardContainerStructure(cardIndex);
-    }
+    seatGeekData.forEach((obj) => {
+      if (obj.venue.has_upcoming_events === true) {
+        // console.log(obj.title);
+        // console.log(obj.type);
+        // console.log(obj.datetime_utc);
+        // console.log(obj.venue.address);
+        // console.log(obj.venue.city);
+        // console.log(obj.venue.country);
+        // console.log(obj.url);
+      }
+    });
 
     // populate cards information
     eventsList.forEach((eventData, cardIndex) => {
@@ -179,14 +64,15 @@ $(document).ready(function () {
     });
   }
 
-  // remove after finish with developing. this is just for test
-  // getDatathistleEventsByLocation(cityName);
-  // getSeatgeekEventsByVenue(cityName);
-
   searchBtn.click(function () {
     cityName = $(inputEl).val();
-    /** */
-    // getDatathistleEventsByLocation(cityName);// TODO: don't delete
+
+    // TODO add get user location
+    // ? if user have turn off location add default location
+    cityName = "Chicago";
+
+    getSeatgeekEventsByVenue(cityName);
+
     renderEventsSection();
   });
 });
