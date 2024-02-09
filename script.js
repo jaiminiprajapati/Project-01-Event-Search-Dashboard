@@ -3,11 +3,50 @@ $(document).ready(function () {
 
   const searchBtn = $("#searchBtn");
   const inputEl = $("#search");
-  var eventsSection = $("#trending");
+  const eventsSection = $("#trending");
+  const eventsSectionTitle = $("#events-section-title");
+  const eventsSectionRowContainer = $("#events-row-container");
 
   var cityName = ""; // remove name after finish with dev
   var eventsList = [];
   var seatGeekData = [];
+
+  function serializedSeatgeekData(hasUpcomingEvents) {
+    seatGeekData.forEach((obj) => {
+      if (obj.venue.has_upcoming_events === hasUpcomingEvents) {
+        eventsList.push({
+          eventId: obj.id,
+          location: {
+            country: obj.venue.country,
+            city: obj.venue.city,
+            state: obj.venue.state,
+            address: obj.venue.address,
+            postCode: obj.venue.postal_code,
+            lat: obj.venue.location.lat,
+            lon: obj.venue.location.lon,
+          },
+          eventIfo: {
+            title: obj.title,
+            type: obj.type,
+            dateTimeUTC: obj.datetime_utc,
+            description: obj.description,
+          },
+          imagesUrls: [obj.performers[0].image, obj.performers[0].images.huge],
+          thicketsUrls: {
+            buyThicketsUrl: obj.url,
+            findThicketsUrl: obj.venue.url,
+          },
+        });
+        // console.log(obj.title);
+        // console.log(obj.type);
+        // console.log(obj.datetime_utc);
+        // console.log(obj.venue.address);
+        // console.log(obj.venue.city);
+        // console.log(obj.venue.country);
+        // console.log(obj.url);
+      }
+    });
+  }
 
   function getDatathistleEventsByLocation(cityName) {
     var headers = new Headers();
@@ -37,26 +76,40 @@ $(document).ready(function () {
         return response.json();
       })
       .then(function (data) {
+        serializedSeatgeekData(data, true);
         data.events.forEach((event) => {
           seatGeekData.push(event);
-          console.log(seatGeekData);
         });
       });
+    console.log(seatGeekData);
+  }
+
+  function createCard(
+    cardIndex,
+    websiteUrl,
+    imgUrl,
+    altDescription,
+    eventTitle,
+    footerText
+  ) {
+    var card = `<div id="event-card-${cardIndex}" class="col">
+                  <div class="card h-100">
+                    <a href="${websiteUrl}">
+                      <img src="${imgUrl}" alt="${altDescription} class="card-img-top"/>
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title">${eventTitle}</h5>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">${footerText}</small>
+                    </div>
+                  </div>
+                </div>`;
+    return card;
   }
 
   function renderEventsSection() {
     // get arr form data and save it in  eventsList
-    seatGeekData.forEach((obj) => {
-      if (obj.venue.has_upcoming_events === true) {
-        // console.log(obj.title);
-        // console.log(obj.type);
-        // console.log(obj.datetime_utc);
-        // console.log(obj.venue.address);
-        // console.log(obj.venue.city);
-        // console.log(obj.venue.country);
-        // console.log(obj.url);
-      }
-    });
 
     // populate cards information
     eventsList.forEach((eventData, cardIndex) => {
