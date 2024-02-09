@@ -1,5 +1,28 @@
 # Project-01-Event-Search-Dashboard
 
+## Table of Contents 
+
+
+
+## Job Description 
+
+Our application is an event search dashboard which showcases events in the users chosen city, these events fall under a number of different categories; dining, partying, music events, networking etc and allows users to buy tickets to said event - it contains ticket prices. locations and the date of the event. 
+
+## Mock Up
+
+
+
+
+## How To Use
+
+
+
+## User Interface 
+
+
+
+## Additional Features
+
 
 ## Installation instructions
 
@@ -104,3 +127,6 @@ Download the project from GitHub [repository](https://github.com/FilipPaskalev/C
 | . | 8 | 1,205 | 104 | 141 | 1,450 |
 | . (Files) | 5 | 1,201 | 75 | 130 | 1,406 |
 | js | 3 | 4 | 29 | 11 | 44 |
+=======
+
+
