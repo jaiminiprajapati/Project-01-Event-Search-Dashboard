@@ -30,7 +30,7 @@ $(document).ready(function () {
           },
           eventIfo: {
             title: obj.title,
-            type: obj.type,
+            category: obj.type,
             dateTimeUTC: obj.datetime_utc,
             description: obj.description,
           },
@@ -124,7 +124,11 @@ $(document).ready(function () {
 
     getSeatgeekEventsByVenue(cityName);
 
+    // TODO get data from thistle
+
     serializedSeatgeekData(true);
+
+    // TODO create function serializedThistleData() that transfer objects to objects like seatgeek
 
     renderEventsSection();
   });
