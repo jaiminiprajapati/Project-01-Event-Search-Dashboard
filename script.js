@@ -44,6 +44,9 @@ $(document).ready(function () {
     });
   }
 
+  // TODO finish- combine seatgeek data and thistle Data in eventsList
+  function mergeEventsData() {}
+
   function getDatathistleEventsByLocation(cityName) {
     var headers = new Headers();
 
@@ -56,7 +59,7 @@ $(document).ready(function () {
         return response.json();
       })
       .then(function (data) {
-        return data;
+        thistleData.push(data);
       });
   }
 
@@ -120,6 +123,7 @@ $(document).ready(function () {
     cityName = "Chicago";
 
     getSeatgeekEventsByVenue(cityName);
+
     serializedSeatgeekData(true);
 
     renderEventsSection();
