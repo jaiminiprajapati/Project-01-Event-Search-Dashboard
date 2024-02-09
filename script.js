@@ -8,10 +8,13 @@ $(document).ready(function () {
   const eventsSectionRowContainer = $("#events-row-container");
 
   var cityName = ""; // remove name after finish with dev
-  var eventsList = [];
-  var seatGeekData = [];
 
-  function serializedSeatgeekData(hasUpcomingEvents) {
+  var eventsList = [];
+
+  var seatGeekData = [];
+  var thistleData = [];
+
+  function serializedSeatgeekData(hasUpcomingEvents = true) {
     seatGeekData.forEach((obj) => {
       if (obj.venue.has_upcoming_events === hasUpcomingEvents) {
         eventsList.push({
@@ -32,7 +35,7 @@ $(document).ready(function () {
             description: obj.description,
           },
           imagesUrls: [obj.performers[0].image, obj.performers[0].images.huge],
-          thicketsUrls: {
+          websiteUrl: {
             buyThicketsUrl: obj.url,
             findThicketsUrl: obj.venue.url,
           },
@@ -76,7 +79,6 @@ $(document).ready(function () {
         return response.json();
       })
       .then(function (data) {
-        serializedSeatgeekData(data, true);
         data.events.forEach((event) => {
           seatGeekData.push(event);
         });
@@ -125,6 +127,7 @@ $(document).ready(function () {
     cityName = "Chicago";
 
     getSeatgeekEventsByVenue(cityName);
+    serializedSeatgeekData(true);
 
     renderEventsSection();
   });
