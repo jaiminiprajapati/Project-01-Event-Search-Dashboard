@@ -14,30 +14,33 @@ $(document).ready(function () {
   var seatGeekData = [];
   var thistleData = [];
 
-  function serializedSeatgeekData(hasUpcomingEvents = true) {
-    seatGeekData.forEach((obj) => {
-      if (obj.venue.has_upcoming_events === hasUpcomingEvents) {
+  function serializedSeatgeekUpcomingEvents() {
+    seatGeekData.forEach((event) => {
+      if (event.venue.has_upcoming_events === true) {
         eventsList.push({
-          eventId: obj.id,
+          eventId: event.id,
           location: {
-            country: obj.venue.country,
-            city: obj.venue.city,
-            state: obj.venue.state,
-            address: obj.venue.address,
-            postCode: obj.venue.postal_code,
-            lat: obj.venue.location.lat,
-            lon: obj.venue.location.lon,
+            country: event.venue.country,
+            city: event.venue.city,
+            state: event.venue.state,
+            address: event.venue.address,
+            postCode: event.venue.postal_code,
+            lat: event.venue.location.lat,
+            lon: event.venue.location.lon,
           },
-          eventIfo: {
-            title: obj.title,
-            category: obj.type,
-            dateTimeUTC: obj.datetime_utc,
-            description: obj.description,
+          eventInfo: {
+            title: event.title,
+            category: event.type,
+            dateTimeUTC: event.datetime_utc,
+            description: event.description,
           },
-          imagesUrls: [obj.performers[0].image, obj.performers[0].images.huge],
+          imagesUrls: [
+            event.performers[0].image,
+            event.performers[0].images.huge,
+          ],
           websiteUrl: {
-            buyThicketsUrl: obj.url,
-            findThicketsUrl: obj.venue.url,
+            buyThicketsUrl: event.url,
+            findThicketsUrl: event.venue.url,
           },
         });
       }
@@ -78,52 +81,34 @@ $(document).ready(function () {
         data.events.forEach((event) => {
           seatGeekData.push(event);
         });
+        // make sure that the serialization is called only when data is received
+        serializedSeatgeekUpcomingEvents();
       });
-    console.log(seatGeekData);
   }
 
-  function createCard(eventData) {
-    eventsList.push({
-      eventId: obj.id,
-      location: {
-        country: obj.venue.country,
-        city: obj.venue.city,
-        state: obj.venue.state,
-        address: obj.venue.address,
-        postCode: obj.venue.postal_code,
-        lat: obj.venue.location.lat,
-        lon: obj.venue.location.lon,
-      },
-      eventIfo: {
-        title: obj.title,
-        category: obj.type,
-        dateTimeUTC: obj.datetime_utc,
-        description: obj.description,
-      },
-      imagesUrls: [obj.performers[0].image, obj.performers[0].images.huge],
-      websiteUrl: {
-        buyThicketsUrl: obj.url,
-        findThicketsUrl: obj.venue.url,
-      },
-    });
+  function createCard(event) {
+    const id = event.eventId;
+    const title = event.eventInfo.title;
+    const buyThicketsURL = event.websiteUrl.buyThicketsUrl; // TODO add button for buy tickets
+    const findThicketsURL = event.websiteUrl.findThicketsUrl;
+    const imgUrl = event.imagesUrls[0]; //TODO take first img if is not there take second if is not there generate random img
+    const altDescription = "TODO: alt text dynamically"; //? how to do dynamically img description
+    const footerText = "Some description, location, etc..."; //? to choose correct props etc
 
-    var websiteUrl = eventData.websiteUrl;
-    var imgUrl = eventData.imagesUrls;
-    var altDescription = "TODO: alt text dynamically"; //? how to do dynamically img description
-    var eventTitle = eventData.eventInfo.title;
-    var footerText = "Some description, location, etc..."; //? to choose correct props etc
-
-    var card = `<div id="event-card-${cardIndex}" class="col">
+    var card = `<div id="event-card-${id}" class="col">
                   <div class="card h-100">
-                    <a href="${websiteUrl}">
+                    <a href="${findThicketsURL}">
                       <img src="${imgUrl}" alt="${altDescription} class="card-img-top"/>
                     </a>
                     <div class="card-body">
-                      <h5 class="card-title">${eventTitle}</h5>
+                      <h5 class="card-title">${title}</h5>
                     </div>
                     <div class="card-footer">
                       <small class="text-body-secondary">${footerText}</small>
                     </div>
+                    <a href="${buyThicketsURL}">
+                      <button>Tickets</button>
+                    </a>
                   </div>
                 </div>`;
 
@@ -131,8 +116,8 @@ $(document).ready(function () {
   }
 
   function renderEventsSection() {
-    eventsList.forEach((eventData) => {
-      // createCard()
+    eventsList.forEach((event) => {
+      eventsSectionRowContainer.append(createCard(event));
     });
   }
 
@@ -143,13 +128,10 @@ $(document).ready(function () {
     // ? if user have turn off location add default location
     cityName = "Chicago";
 
-    getSeatgeekEventsByVenue(cityName);
-
     // TODO get data from thistle
+    // TODO create function serializedThistleData() in the fetch(to be sure that data is received) that transfer objects to objects like seatgeek
 
-    serializedSeatgeekData(true);
-
-    // TODO create function serializedThistleData() that transfer objects to objects like seatgeek
+    getSeatgeekEventsByVenue(cityName);
 
     renderEventsSection();
   });
