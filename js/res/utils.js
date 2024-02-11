@@ -27,14 +27,6 @@ const DEFAULT_LOCATION = {
   loc: "41.881832,-87.623177",
 };
 
-var selectedLocation = {
-  city: DEFAULT_LOCATION.city,
-  country: DEFAULT_LOCATION.country,
-  loc: DEFAULT_LOCATION.loc,
-};
-
-var events = [];
-
 const SEARCH_BTN = $("#searchBtn");
 const INPUT_EL = $("#search");
 const EVENT_SECTION = $("#trending");
