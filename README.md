@@ -2,7 +2,7 @@
 
 ## Table of Contents 
 
-
+<!-- TODO TOC  -->
 
 ## Job Description 
 
@@ -107,26 +107,51 @@ Download the project from GitHub [repository](https://github.com/FilipPaskalev/C
 
 | Parameter              | Type     | Description                |
 | :--------------------- | :------- | :------------------------- |
-| `OPENCAGEDATA_API_KEY` | `string` | **Required**. Your API key |
-| `SEATGEEK_API_KEY`     | `string` | **Required**. Your API key |
-| `DATATHISTLE_API_KEY`  | `string` | **Required**. Your API key |
+| `OPENCAGEDATA_API_KEY` | `string` | **Required API key** |
+| `SEATGEEK_API_KEY`     | `string` | **Required API key** |
+| `DATATHISTLE_API_KEY`  | `string` | **Required API key** |
 
 
 ## Statistics
+
+### Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [README.md](/README.md) | Markdown | 78 | 0 | 55 | 133 |
+| [index.html](/index.html) | HTML | 342 | 24 | 27 | 393 |
+| [js/api/datathistle.js](/js/api/datathistle.js) | JavaScript | 0 | 13 | 3 | 16 |
+| [js/api/seatgeek.js](/js/api/seatgeek.js) | JavaScript | 71 | 1 | 11 | 83 |
+| [js/api/userLocation.js](/js/api/userLocation.js) | JavaScript | 19 | 0 | 2 | 21 |
+| [js/autocomleate.js](/js/autocomleate.js) | JavaScript | 0 | 29 | 6 | 35 |
+| [js/creators/searchBycategoryDropdown.js](/js/creators/searchBycategoryDropdown.js) | JavaScript | 8 | 0 | 1 | 9 |
+| [js/creators/upcomingEventCard.js](/js/creators/upcomingEventCard.js) | JavaScript | 41 | 2 | 4 | 47 |
+| [js/renders/categorySearchDropdown.js](/js/renders/categorySearchDropdown.js) | JavaScript | 7 | 0 | 1 | 8 |
+| [js/renders/filteredEventsbyCategory.js](/js/renders/filteredEventsbyCategory.js) | JavaScript | 14 | 1 | 5 | 20 |
+| [js/renders/upcomingEventsSection.js](/js/renders/upcomingEventsSection.js) | JavaScript | 5 | 0 | 1 | 6 |
+| [js/res/localeStorage.js](/js/res/localeStorage.js) | JavaScript | 9 | 0 | 3 | 12 |
+| [js/res/utils.js](/js/res/utils.js) | JavaScript | 29 | 0 | 7 | 36 |
+| [script.js](/script.js) | JavaScript | 37 | 1 | 8 | 46 |
+| [style.css](/style.css) | CSS | 259 | 0 | 44 | 303 |
+| [uiTemplate.html](/uiTemplate.html) | HTML | 443 | 24 | 30 | 497 |
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
 ### Languages
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| HTML | 2 | 888 | 46 | 60 | 994 |
-| CSS | 1 | 192 | 0 | 25 | 217 |
-| JavaScript | 4 | 124 | 58 | 55 | 237 |
-| Markdown | 1 | 1 | 0 | 1 | 2 |
+| HTML | 2 | 785 | 48 | 57 | 890 |
+| CSS | 1 | 259 | 0 | 44 | 303 |
+| JavaScript | 12 | 240 | 47 | 52 | 339 |
+| Markdown | 1 | 78 | 0 | 55 | 133 |
 
 ### Directories
 | path | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| . | 8 | 1,205 | 104 | 141 | 1,450 |
-| . (Files) | 5 | 1,201 | 75 | 130 | 1,406 |
-| js | 3 | 4 | 29 | 11 | 44 |
-=======
-
-
+| . | 16 | 1,362 | 95 | 208 | 1,665 |
+| . (Files) | 5 | 1,159 | 49 | 164 | 1,372 |
+| js | 11 | 203 | 46 | 44 | 293 |
+| js (Files) | 1 | 0 | 29 | 6 | 35 |
+| js\\api | 3 | 90 | 14 | 16 | 120 |
+| js\\creators | 2 | 49 | 2 | 5 | 56 |
+| js\\renders | 3 | 26 | 1 | 7 | 34 |
+| js\\res | 2 | 38 | 0 | 10 | 48 |
