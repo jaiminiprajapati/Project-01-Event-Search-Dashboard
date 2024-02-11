@@ -14,39 +14,39 @@ function createUpcomingEventCard(event) {
 
   // TODO add styles to the button
   var card = `<div id="event-card-${id}" class="col">
-                <div class="card h-100">
-                  <a href="${findThicketsURL}">
-                    <img src="${imgUrl}" alt="${altDescription} class="card-img-top img-fluid upcoming-event-card-img"/>
-                  </a>
-                  <div class="card-body">
-                    <h5 class="card-title">${title}</h5>
-                  </div>
-                  <div class="card-footer">
-                  <div class="footer-item">
-                      <div class="footer-title">City: ${city}</div>
-                    </div>
-                    <div class="footer-item">
-                      <div class="footer-title">State: ${state}</div>
-                    </div>
-                    <div class="footer-item">
-                      <div class="footer-title">Address: ${address}</div>
-                    </div>
-                    <div class="footer-item">
-                      <div class="footer-title">Post Code: ${postCode}</div>
-                    </div>
-                    <div class="footer-item">
-                      <div class="footer-title">Date & Time: ${dateTimeUTC}</div>
-                    </div>
-                    <small class="text-body-secondary">${footerText}</small>
-                    <a href="${buyThicketsURL}" target="_blank">
-                      <button>Tickets</button>
-                    </a>
-                    <a href="${findThicketsURL}" target="_blank">
-                      <button>Check time</button>
-                    </a>
-                    </div>
-                </div>
-              </div>`;
+  <div class="card h-100">
+    <a href="${findThicketsURL}">
+      <img src="${imgUrl}" alt="${altDescription} class="card-img-top img-fluid upcoming-event-card-img"/>
+    </a>
+    <div class="card-body">
+      <h5 class="card-title">${title}</h5>
+    </div>
+    <div class="card-footer">
+    <div class="footer-item">
+        <div class="footer-title">City: ${city}</div>
+      </div>
+      <div class="footer-item">
+        <div class="footer-title">State: ${state}</div>
+      </div>
+      <div class="footer-item">
+        <div class="footer-title">Address: ${address}</div>
+      </div>
+      <div class="footer-item">
+        <div class="footer-title">Post Code: ${postCode}</div>
+      </div>
+      <div class="footer-item">
+        <div class="footer-title">Date & Time: ${dateTimeUTC}</div>
+      </div>
+      <small class="text-body-secondary">${footerText}</small>
+      <a href="${buyThicketsURL}" target="_blank">
+        <button>Tickets</button>
+      </a>
+      <a href="${findThicketsURL}" target="_blank">
+        <button>Check time</button>
+      </a>
+      </div>
+  </div>
+</div>`;
 
   return card;
 }
