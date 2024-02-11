@@ -7,7 +7,7 @@ function createUpcomingEventCard(event) {
   // TODO add styles to the button
   var card = `<div id="event-card-${event.eventId}" class="col">
   <div class="card h-100">
-    <a href="${event.websiteUrl.findThicketsUrl}" target="_blank">
+    <a href="${event.websiteUrl.findTicketsUrl}" target="_blank">
       <img src="${imgUrl}" alt="${altDescription} class="card-img-top img-fluid upcoming-event-card-img"/>
     </a>
     <div class="card-body">
@@ -30,10 +30,10 @@ function createUpcomingEventCard(event) {
         <div class="footer-title">Date & Time: ${event.info.dateTimeUTC}</div>
       </div>
       <small class="text-body-secondary">${event.info.description}</small>
-      <a href="${event.websiteUrl.buyThicketsURL}" target="_blank">
+      <a href="${event.websiteUrl.buyTicketsUrl}" target="_blank">
         <button>Tickets</button>
       </a>
-      <a href="${event.websiteUrl.findThicketsUrl}" target="_blank">
+      <a href="${event.websiteUrl.findTicketsUrl}" target="_blank">
         <button>Check time</button>
       </a>
       </div>
