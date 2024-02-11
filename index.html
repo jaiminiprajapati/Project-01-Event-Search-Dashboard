@@ -29,17 +29,17 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
           <div class="btn-group">
-            <button type="button" class="btn btn-lg btn-secondary dropdown-toggle navCat" data-bs-toggle="dropdown"
-              data-bs-display="static" aria-expanded="false">
+            <a id="drop-down-btn" type="button" class="btn btn-lg btn-secondary dropdown-toggle navCat"
+              data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
               SEARCH BY CATEGORIES
-            </button>
+            </a>
             <ul id="search-by-category-dropdown-ul" class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start dw">
               <!-- Events Categories -->
             </ul>
           </div>
           <form class="d-flex">
             <div class="input-group flex-row">
-              <input type="text" class="form-control" id="search" placeholder="enter event/ location">
+              <input type="text" class="form-control" id="search" placeholder="Enter city">
               <button type="button" class="btn btn-secondary btn-group" id="searchBtn"><i
                   class="fa-solid fa-magnifying-glass"></i></button>
             </div>
@@ -373,10 +373,6 @@
   <script src="js/api/seatgeek.js"></script>
   <script src="js/api/datathistle.js"></script>
 
-  <!-- Resources -->
-  <script src="js/res/utils.js"></script>
-  <script src="js/res/localeStorage.js"></script>
-
   <!-- Creators -->
   <script src="js/creators/upcomingEventCard.js"></script>
   <script src="js/creators/searchBycategoryDropdown.js"></script>
@@ -384,6 +380,11 @@
   <!-- Renders -->
   <script src="js/renders/upcomingEventsSection.js"></script>
   <script src="js/renders/categorySearchDropdown.js"></script>
+  <script src="js/renders/filteredEventsbyCategory.js"></script>
+
+  <!-- Resources -->
+  <script src="js/res/utils.js"></script>
+  <script src="js/res/localeStorage.js"></script>
 
   <!-- Logic -->
   <script src="script.js"></script>
