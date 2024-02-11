@@ -11,10 +11,9 @@ $(document).ready(function () {
 
   getDataFromSeatgeekByCityName()
     .then(serializedSeatgeekDataByUpcomingEvents)
-    .then(function () {
-      //TODO fetch data from thistle
-      console.log(events);
-    })
+    // .then(function () {
+    //   console.log(events);
+    // })
     .catch(function (error) {
       console.error(error);
     });
