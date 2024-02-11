@@ -25,6 +25,7 @@ function getDataFromSeatgeekByCityName(cityName) {
 function serializedSeatgeekDataByUpcomingEvents() {
   return new Promise(function (resolve, reject) {
     var serializedEvents = [];
+    let extractedCategories = [];
 
     try {
       seatGeekData.forEach((event) => {
@@ -55,13 +56,27 @@ function serializedSeatgeekDataByUpcomingEvents() {
               findTicketsUrl: event.venue.url,
             },
           });
+
+          extractedCategories.push(event.type);
         }
       });
 
       events = serializedEvents;
+      categories = extractedCategories;
+
       resolve();
     } catch (error) {
       reject(error);
     }
   });
+}
+
+function serializedEventCategoriesFromSeatgeek() {
+  var formattedArr;
+
+  formattedArr = categories.map((category) =>
+    category.replace(/_/g, " ").toUpperCase()
+  );
+
+  categories = formattedArr;
 }
