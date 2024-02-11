@@ -1,6 +1,6 @@
-function getDataFromSeatgeekByCityName() {
-  var seatGeekData = [];
+var seatGeekData = [];
 
+function getDataFromSeatgeekByCityName() {
   fetch(
     URL_ADDRESS.seatgeek +
       selectedLocation.city +
@@ -15,12 +15,10 @@ function getDataFromSeatgeekByCityName() {
         seatGeekData.push(event);
       });
     });
-
-  return seatGeekData;
 }
 
-function serializedSeatgeekDataByUpcomingEvents(data) {
-  data.forEach((event) => {
+function serializedSeatgeekDataByUpcomingEvents() {
+  seatGeekData.forEach((event) => {
     if (event.venue.has_upcoming_events === true) {
       events.push({
         eventId: event.id,
