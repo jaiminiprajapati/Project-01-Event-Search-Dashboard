@@ -18,26 +18,28 @@ $(document).ready(function () {
     .then(serializedEventCategoriesFromSeatgeek)
     .then(function () {
       renderEventsSection();
-      renderSearchByCategoryDropdown();
-      // console.log(events);
-      // console.log(categories);
+      renderSearchByCategoryDropdown(categories);
     })
     .catch(function (error) {
       console.error(error);
     });
 
-  searchBtn.click(function () {
-    selectedCity = $(inputEl).val();
-
-    // getDataFromSeatgeekByCityName()
-    //   .then(serializedSeatgeekDataByUpcomingEvents)
-    //   .then(serializedEventCategoriesFromSeatgeek)
-    //   .then(function () {
-    //     renderEventsSection();
-    //     // console.log(events);
-    //   })
-    //   .catch(function (error) {
-    //     console.error(error);
-    //   });
+  SEARCH_BTN.click(function () {
+    selectedCity = $(INPUT_EL).val();
+    //TODO add logic
+    getDataFromSeatgeekByCityName(selectedCity)
+      .then(serializedSeatgeekDataByUpcomingEvents)
+      .then(serializedEventCategoriesFromSeatgeek)
+      .then(function () {
+        renderEventsSection();
+        renderSearchByCategoryDropdown(categories);
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
   });
+
+  CATEGORIES_SEARCH_DROPDOWN_UL.onchange = function () {
+    console.log(this.value);
+  };
 });
