@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Abril Fatface", "Times New Roman", Times, serif;
+  font-family: "z", "Times New Roman", Times, serif;
 }
 
 h1,
@@ -10,8 +10,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bree Serif";
-  text-shadow: 2px 2px 4px #aaa;
+  font-family: "Anton";
+
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 }
 
 .btn-group {
-  font-family: "Abril Fatface", "Times New Roman", Times, serif;
+  font-family: "Anton", "Times New Roman", Times, serif;
 }
 
 .btn-group:hover {
@@ -158,7 +158,7 @@ p {
 }
 
 .card {
-  border: 2px solid rgb(52, 129, 237);
+  border: 0px solid rgb(255, 255, 255);
   margin: 10px 4px;
   transition: 0.6s ease;
 }
@@ -241,7 +241,7 @@ p {
 }
 .eventEl img {
   border-radius: 0px;
-  border: 2px solid rgb(52, 129, 237);
+  border: 0px solid rgb(255, 255, 255);
   width: 100%;
 }
 .card-body {
@@ -300,3 +300,4 @@ p {
   font-size: 0.8rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
