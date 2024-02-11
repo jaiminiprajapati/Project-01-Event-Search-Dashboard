@@ -24,6 +24,7 @@ p {
 
 .btn-group:hover {
   background-color: rgb(243, 90, 8);
+  border-radius: 5px;
   color: white;
 }
 
@@ -45,7 +46,7 @@ p {
   display: flex;
 }
 
-.row-equal-height>[class*="col-"] {
+.row-equal-height > [class*="col-"] {
   display: flex;
   flex-direction: column;
 }
@@ -114,7 +115,7 @@ p {
   }
 }
 
-.footer-dark .item.social>a {
+.footer-dark .item.social > a {
   font-size: 20px;
   width: 36px;
   height: 36px;
@@ -128,7 +129,7 @@ p {
   opacity: 0.75;
 }
 
-.footer-dark .item.social>a:hover {
+.footer-dark .item.social > a:hover {
   opacity: 0.9;
 }
 
@@ -209,6 +210,7 @@ p {
 
 .form-control {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 0px 5px 5px 0px;
 }
 
 .fa-solid {
@@ -241,4 +243,60 @@ p {
   border-radius: 0px;
   border: 2px solid rgb(52, 129, 237);
   width: 100%;
+}
+.card-body {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+  max-height: min-content;
+}
+.eventEl h5 {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.footer-item {
+  display: flex;
+  justify-content: left;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.footer-end {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.footer-end button {
+  background-color: #494949;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  box-shadow: #282d32;
+  cursor: pointer;
+  font-weight: 600;
+}
+.footer-end button:hover {
+  background-color: rgb(243, 90, 8);
+  color: white;
+  transition: 1s ease;
+}
+.navCat {
+  border-radius: 5px 0px 0px 5px;
+  padding: 16.5px 10px;
+  font-size: 0.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navCat:hover {
+  background-color: rgb(243, 90, 8);
+  border-radius: 5px 0px 0px 5px;
+  color: white;
+}
+.dw li {
+  font-size: 0.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
