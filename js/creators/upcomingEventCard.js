@@ -10,7 +10,7 @@ function createUpcomingEventCard(event) {
   var card = `<div id="event-card-${id}" class="col">
                 <div class="card h-100">
                   <a href="${findThicketsURL}">
-                    <img src="${imgUrl}" alt="${altDescription} class="card-img-top"/>
+                    <img src="${imgUrl}" alt="${altDescription} class="card-img-top img-fluid"/>
                   </a>
                   <div class="card-body">
                     <h5 class="card-title">${title}</h5>

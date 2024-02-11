@@ -13,6 +13,7 @@ $(document).ready(function () {
     .then(serializedSeatgeekDataByUpcomingEvents)
     .then(function () {
       //TODO render upcoming events
+      renderEventsSection();
       // console.log(events);
     })
     .catch(function (error) {
