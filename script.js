@@ -18,8 +18,9 @@ $(document).ready(function () {
     .then(serializedEventCategoriesFromSeatgeek)
     .then(function () {
       renderEventsSection();
-      console.log(events);
-      console.log(categories);
+      renderSearchByCategoryDropdown();
+      // console.log(events);
+      // console.log(categories);
     })
     .catch(function (error) {
       console.error(error);
@@ -28,15 +29,15 @@ $(document).ready(function () {
   searchBtn.click(function () {
     selectedCity = $(inputEl).val();
 
-    getDataFromSeatgeekByCityName()
-      .then(serializedSeatgeekDataByUpcomingEvents)
-      .then(serializedEventCategoriesFromSeatgeek)
-      .then(function () {
-        renderEventsSection();
-        // console.log(events);
-      })
-      .catch(function (error) {
-        console.error(error);
-      });
+    // getDataFromSeatgeekByCityName()
+    //   .then(serializedSeatgeekDataByUpcomingEvents)
+    //   .then(serializedEventCategoriesFromSeatgeek)
+    //   .then(function () {
+    //     renderEventsSection();
+    //     // console.log(events);
+    //   })
+    //   .catch(function (error) {
+    //     console.error(error);
+    //   });
   });
 });

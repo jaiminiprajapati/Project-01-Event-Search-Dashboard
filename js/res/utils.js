@@ -32,3 +32,4 @@ const INPUT_EL = $("#search");
 const EVENT_SECTION = $("#trending");
 const EVENT_SECTION_TITLE = $("#events-section-title");
 const EVENTS_SECTION_ROW_CONTAINER = $("#events-row-container");
+const CATEGORIES_SEARCH_DROPDOWN_UL = $("#search-by-category-dropdown-ul");
