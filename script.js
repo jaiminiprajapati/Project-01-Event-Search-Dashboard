@@ -1,26 +1,39 @@
-var events = [];
-
 var selectedLocation = {
   city: DEFAULT_LOCATION.city,
   country: DEFAULT_LOCATION.country,
   loc: DEFAULT_LOCATION.loc,
 };
 
+var selectedCity = selectedLocation.city;
+
+var events = [];
+
 $(document).ready(function () {
   getIPInfoFromLocalStorage();
 
-  getDataFromSeatgeekByCityName()
+  getDataFromSeatgeekByCityName(selectedCity)
     .then(serializedSeatgeekDataByUpcomingEvents)
     .then(function () {
       //TODO render upcoming events
       renderEventsSection();
-      // console.log(events);
+      console.log(events);
     })
     .catch(function (error) {
       console.error(error);
     });
 
   searchBtn.click(function () {
-    var selectedCity = $(inputEl).val();
+    selectedCity = $(inputEl).val();
+
+    getDataFromSeatgeekByCityName()
+      .then(serializedSeatgeekDataByUpcomingEvents)
+      .then(function () {
+        //TODO render upcoming events
+        renderEventsSection();
+        // console.log(events);
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
   });
 });
