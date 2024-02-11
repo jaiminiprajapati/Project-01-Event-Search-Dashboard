@@ -15,7 +15,7 @@ function createUpcomingEventCard(event) {
   // TODO add styles to the button
   var card = `<div id="event-card-${id}" class="col">
   <div class="card h-100">
-    <a href="${findThicketsURL}">
+    <a href="${findThicketsURL} target="_blank"">
       <img src="${imgUrl}" alt="${altDescription} class="card-img-top img-fluid upcoming-event-card-img"/>
     </a>
     <div class="card-body">
