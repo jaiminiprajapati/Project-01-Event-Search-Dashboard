@@ -29,6 +29,7 @@ function createUpcomingEventCard(event) {
       <div class="footer-item">
         <div class="footer-title">Date & Time: ${event.info.dateTimeUTC}</div>
       </div>
+      <div class="footer-end">
       <small class="text-body-secondary">${event.info.description}</small>
       <a href="${event.websiteUrl.buyTicketsUrl}" target="_blank">
         <button>Tickets</button>
@@ -36,6 +37,7 @@ function createUpcomingEventCard(event) {
       <a href="${event.websiteUrl.findTicketsUrl}" target="_blank">
         <button>Check time</button>
       </a>
+      </div>
       </div>
   </div>
 </div>`;
