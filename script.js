@@ -8,15 +8,18 @@ var selectedCity = selectedLocation.city;
 
 var events = [];
 
+var categories = [];
+
 $(document).ready(function () {
   getIPInfoFromLocalStorage();
 
   getDataFromSeatgeekByCityName(selectedCity)
     .then(serializedSeatgeekDataByUpcomingEvents)
+    .then(serializedEventCategoriesFromSeatgeek)
     .then(function () {
-      //TODO render upcoming events
       renderEventsSection();
       console.log(events);
+      console.log(categories);
     })
     .catch(function (error) {
       console.error(error);
@@ -27,8 +30,8 @@ $(document).ready(function () {
 
     getDataFromSeatgeekByCityName()
       .then(serializedSeatgeekDataByUpcomingEvents)
+      .then(serializedEventCategoriesFromSeatgeek)
       .then(function () {
-        //TODO render upcoming events
         renderEventsSection();
         // console.log(events);
       })
