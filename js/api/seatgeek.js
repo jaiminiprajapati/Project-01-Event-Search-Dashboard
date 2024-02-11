@@ -1,6 +1,9 @@
 var seatGeekData = [];
 
 function getDataFromSeatgeekByCityName() {
+  // Clean the arr
+  seatGeekData = [];
+
   return new Promise(function (resolve, reject) {
     fetch(
       URL_ADDRESS.seatgeek +
