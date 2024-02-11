@@ -1,5 +1,5 @@
-// function renderEventsSection() {
-//   eventsList.forEach((event) => {
-//     eventsSectionRowContainer.append(createCard(event));
-//   });
-// }
+function renderEventsSection() {
+  eventsList.forEach((event) => {
+    eventsSectionRowContainer.append(createUpcomingEventCard(event));
+  });
+}

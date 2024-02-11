@@ -1,4 +1,4 @@
-function createCard(event) {
+function createUpcomingEventCard(event) {
   const id = event.eventId;
   const title = event.eventInfo.title;
   const buyThicketsURL = event.websiteUrl.buyThicketsUrl; // TODO add button for buy tickets
