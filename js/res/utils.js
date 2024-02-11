@@ -13,6 +13,9 @@ const URL_ADDRESS = {
   ipInfo: "https://ipinfo.io/json?token=",
 };
 
+const LOCALE_STORAGE_KEYS = {
+  ipAddress: "IP",
+};
 // const OPENCAGEDATA_API_KEY = "e4e6db07aa0b40779b65cefa32c7cbc9";
 
 // const DATATHISTLE_API_KEY =
@@ -20,7 +23,28 @@ const URL_ADDRESS = {
 
 // const SEATGEEK_API_KEY = "Mzk3MTk2ODF8MTcwNjkwNDA0MS41MjMzMDYx";
 
-const DEFAULT_USER_LOCATION = "Chicago";
+const DEFAULT_LOCATION = {
+  city: "Chicago",
+  country: "US",
+  loc: "41.881832,-87.623177",
+};
+
+var selectedLocation = {
+  city: DEFAULT_LOCATION.city,
+  country: DEFAULT_LOCATION.country,
+  loc: DEFAULT_LOCATION.loc,
+};
+
+// {
+//   "ip": "2.27.142.130",
+//   "city": "Castle Vale",
+//   "region": "England",
+//   "country": "GB",
+//   "loc": "52.5282,-1.8549",
+//   "org": "AS12576 EE Limited",
+//   "postal": "B23",
+//   "timezone": "Europe/London"
+//  }
 
 const SEARCH_BTN = $("#searchBtn");
 const INPUT_EL = $("#search");

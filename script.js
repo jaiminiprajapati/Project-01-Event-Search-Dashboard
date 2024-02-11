@@ -106,7 +106,9 @@ $(document).ready(function () {
   //   });
   // }
 
-  function getUserLocation() {}
+  getIPInfoFromLocalStorage();
+
+  console.log(selectedLocation.city);
 
   searchBtn.click(function () {
     cityName = $(inputEl).val();
