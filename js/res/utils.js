@@ -4,3 +4,9 @@ const DATATHISTLE_API_KEY =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmYxYThmY2MtOTY1My00MTUwLWJiNTUtOWQ0NTg5ZjMwMjUyIiwia2V5X2lkIjoiMTBhMzA1OGItMzljOS00YmMzLWEwZjMtNjZiOGY5M2U0NTY5IiwiaWF0IjoxNzA2NzM4MDkzfQ.5pv2xxVdYSLBNg6rLoEKLYHiCpLHXJEIf2TmhyViXHU";
 
 const SEATGEEK_API_KEY = "Mzk3MTk2ODF8MTcwNjkwNDA0MS41MjMzMDYx";
+
+const SEARCH_BTN = $("#searchBtn");
+const INPUT_EL = $("#search");
+const EVENT_SECTION = $("#trending");
+const EVENT_SECTION_TITLE = $("#events-section-title");
+const EVENTS_SECTION_ROW_CONTAINER = $("#events-row-container");

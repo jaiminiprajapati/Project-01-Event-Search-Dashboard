@@ -1,11 +1,5 @@
 $(document).ready(function () {
-  const searchBtn = $("#searchBtn");
-  const inputEl = $("#search");
-  const eventsSection = $("#trending");
-  const eventsSectionTitle = $("#events-section-title");
-  const eventsSectionRowContainer = $("#events-row-container");
-
-  var cityName = ""; // remove name after finish with dev
+  var cityName = "";
 
   var eventsList = [];
 
