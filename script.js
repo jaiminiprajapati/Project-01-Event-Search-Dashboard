@@ -1,6 +1,4 @@
 $(document).ready(function () {
-  console.log("jQuery is loaded");
-
   const searchBtn = $("#searchBtn");
   const inputEl = $("#search");
   const eventsSection = $("#trending");
