@@ -1,37 +1,4 @@
 $(document).ready(function () {
-  // function serializedSeatgeekUpcomingEvents() {
-  //   seatGeekData.forEach((event) => {
-  //     if (event.venue.has_upcoming_events === true) {
-  //       eventsList.push({
-  //         eventId: event.id,
-  //         location: {
-  //           country: event.venue.country,
-  //           city: event.venue.city,
-  //           state: event.venue.state,
-  //           address: event.venue.address,
-  //           postCode: event.venue.postal_code,
-  //           lat: event.venue.location.lat,
-  //           lon: event.venue.location.lon,
-  //         },
-  //         eventInfo: {
-  //           title: event.title,
-  //           category: event.type,
-  //           dateTimeUTC: event.datetime_utc,
-  //           description: event.description,
-  //         },
-  //         imagesUrls: [
-  //           event.performers[0].image,
-  //           event.performers[0].images.huge,
-  //         ],
-  //         websiteUrl: {
-  //           buyThicketsUrl: event.url,
-  //           findThicketsUrl: event.venue.url,
-  //         },
-  //       });
-  //     }
-  //   });
-  // }
-
   // // TODO finish- combine seatgeek data and thistle Data in eventsList
   // function mergeEventsData() {}
 
@@ -48,26 +15,6 @@ $(document).ready(function () {
   //     })
   //     .then(function (data) {
   //       thistleData.push(data);
-  //     });
-  // }
-
-  // function getSeatgeekEventsByVenue(cityName) {
-  //   const url =
-  //     "https://api.seatgeek.com/2/events?venue.city=" +
-  //     cityName +
-  //     "&client_id=" +
-  //     SEATGEEK_API_KEY;
-
-  //   fetch(url)
-  //     .then(function (response) {
-  //       return response.json();
-  //     })
-  //     .then(function (data) {
-  //       data.events.forEach((event) => {
-  //         seatGeekData.push(event);
-  //       });
-  //       // make sure that the serialization is called only when data is received
-  //       serializedSeatgeekUpcomingEvents();
   //     });
   // }
 
@@ -108,20 +55,11 @@ $(document).ready(function () {
 
   getIPInfoFromLocalStorage();
 
-  console.log(selectedLocation.city);
+  getDataFromSeatgeekByCityName();
+
+  // renderEventsSection();
 
   searchBtn.click(function () {
-    cityName = $(inputEl).val();
-
-    // TODO add get user location before clicking the button
-    // ? if user have turn off location add default location
-    cityName = "Chicago";
-
-    // TODO get data from thistle
-    // TODO create function serializedThistleData() in the fetch(to be sure that data is received) that transfer objects to objects like seatgeek
-
-    getSeatgeekEventsByVenue(cityName);
-
-    renderEventsSection();
+    var selectedCity = $(inputEl).val();
   });
 });
