@@ -5,7 +5,7 @@ const API_KEY = {
 };
 
 const CLIENT_ID = {
-  seatgeek: "Mzk3MTk2ODF8MTcwNjkwNDA0MS41MjMzMDYx",
+  seatgeek: "Mzk3MTk2ODF8MTcwNzYyNDk5Ni43MTgxNTU5",
 };
 
 const TOKEN = {

@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Abril Fatface", "Times New Roman", Times, serif;
 }
+
 h1,
 h2,
 h3,
@@ -16,13 +17,16 @@ h6 {
 p {
   font-family: "Work+Sans", "Helvetica", "sans-serif";
 }
+
 .btn-group {
   font-family: "Abril Fatface", "Times New Roman", Times, serif;
 }
+
 .btn-group:hover {
   background-color: rgb(243, 90, 8);
   color: white;
 }
+
 .navbar {
   background-color: #494949;
 }
@@ -36,11 +40,12 @@ p {
 
   width: 50%;
 }
+
 .row-equal-height {
   display: flex;
 }
 
-.row-equal-height > [class*="col-"] {
+.row-equal-height>[class*="col-"] {
   display: flex;
   flex-direction: column;
 }
@@ -109,7 +114,7 @@ p {
   }
 }
 
-.footer-dark .item.social > a {
+.footer-dark .item.social>a {
   font-size: 20px;
   width: 36px;
   height: 36px;
@@ -123,7 +128,7 @@ p {
   opacity: 0.75;
 }
 
-.footer-dark .item.social > a:hover {
+.footer-dark .item.social>a:hover {
   opacity: 0.9;
 }
 
@@ -169,48 +174,67 @@ p {
   justify-content: center;
   padding: 40px 0px 0px 0px;
 }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+
 .navbar {
   border-color: #494949;
 }
+
 .dropdown-menu {
   background-color: #494949;
   border-color: #494949;
 }
+
 .dropdown-item {
   color: white;
 }
+
 .dropdown-item:hover {
   background-color: #494949;
   color: rgb(243, 90, 8);
 }
+
 .dropdown-menu .dropdown-item {
   padding: 10px 20px;
 }
+
 .dropdown-menu .dropdown-item:hover {
   background-color: #494949;
   color: rgb(243, 90, 8);
 }
+
 .form-control {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 .fa-solid {
   font-size: 30px;
   padding: 5px 10px;
 }
+
 @media only screen and (max-width: 768px) {
   .left {
     width: 100%;
   }
+
   .right {
     width: 100%;
     padding-top: 10px;
     text-align: center;
   }
+
   .midPage button {
     width: 100%;
   }
+}
+
+.upcoming-event-card-img {
+  width: 100%;
+
+  height: auto;
+
 }

@@ -1,16 +1,11 @@
 var seatGeekData = [];
 
-function getDataFromSeatgeekByCityName() {
+function getDataFromSeatgeekByCityName(cityName) {
   // Clean the arr
   seatGeekData = [];
 
   return new Promise(function (resolve, reject) {
-    fetch(
-      URL_ADDRESS.seatgeek +
-        selectedLocation.city +
-        "&client_id=" +
-        CLIENT_ID.seatgeek
-    )
+    fetch(URL_ADDRESS.seatgeek + cityName + "&client_id=" + CLIENT_ID.seatgeek)
       .then(function (response) {
         if (!response.ok) {
           throw new Error("Failed to fetch data from SeatGeek API");
@@ -45,7 +40,7 @@ function serializedSeatgeekDataByUpcomingEvents() {
               lat: event.venue.location.lat,
               lon: event.venue.location.lon,
             },
-            eventInfo: {
+            info: {
               title: event.title,
               category: event.type,
               dateTimeUTC: event.datetime_utc,
