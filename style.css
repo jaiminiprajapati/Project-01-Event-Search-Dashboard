@@ -232,6 +232,9 @@ p {
   .midPage button {
     width: 100%;
   }
+  .dw {
+    width: 100%;
+  }
 }
 
 .upcoming-event-card-img {
