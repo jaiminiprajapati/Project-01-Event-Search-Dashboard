@@ -38,14 +38,15 @@ p {
 
 .right {
   display: inline-block;
-
   width: 50%;
 }
-
+.right button {
+  justify-content: center;
+  margin-top: 0px;
+}
 .row-equal-height {
   display: flex;
 }
-
 .row-equal-height > [class*="col-"] {
   display: flex;
   flex-direction: column;
